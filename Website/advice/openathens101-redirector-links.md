@@ -11,7 +11,7 @@ Redirectorが行うことは、リソースの記事やセクションのター�
 ### プリフィクスはどのようなものでしょうか？
 プリフィクスは次のようになります。
 
-**https://go.openathens.net/redirector/yourdomain.net?url=**
+**https\://go.openathens.net/redirector/yourdomain.net?url=**
 
 プリフィクスなので、リンクリゾルバなどプロキシサーバに対応しているところでは使える場面は多いです。唯一の注意点は、Redirectorに対応していないリソースがあることです。しかし、Redirectorに対応可能なリソースは増え続けています。これらのリソースは、「redirectable（リダイレクト可）」と呼ばれます。このようなリソースは、、ユーザが指定したターゲット・ページに移動するため、リンクリゾルバでの使用に最適なリソースです。リソースがredirectableであるためには、WAYFless アクセスとディープリンク (記事レベルリンクと呼ばれることもあります) をサポートしていなければなりません。リソースが互換性があるかどうかを確認する方法はいくつかあり、[こちら](https://docs.openathens.net/display/public/MD/About+the+redirector)で調べることができます。
 

@@ -29,9 +29,9 @@ https\://sp.resource.example/oa/signin?entityID=https://idp.eduserv.org.uk/opena
 
 2つ目のタイプは、サービスのentityIDと、時には自分のログインページへのターゲットページを渡すような場合です。
 
-https\://login.test.openathens.net/saml/1/sso/yourdomain.tld/c/ukfed?providerId=https://sp.resource.example/entity&shire=https://sp.resource.example/rcv/saml1/POST または
+https\://login.test.openathens.net/saml/1/sso/yourdomain.tld/c/ukfed?providerId=https\://sp.resource.example/entity&shire=https\://sp.resource.example/rcv/saml1/POST または
 
-https\://login.test.openathens.net/saml/1/sso/yourdomain.tld/c/ukfed?providerId=https://sp.resource.example/entity&shire=https://sp.resource.example/rcv/saml1/POST&target=https://sp.resource.example/content
+https\://login.test.openathens.net/saml/1/sso/yourdomain.tld/c/ukfed?providerId=https\://sp.resource.example/entity&shire=https\://sp.resource.example/rcv/saml1/POST&target=https\://sp.resource.example/content
 
 この2番目のタイプは、2005年にSAML2に取って代わられたSAML1標準に基づいているため、稀であるだけでなく、可能な限り避けるべきです。
 
