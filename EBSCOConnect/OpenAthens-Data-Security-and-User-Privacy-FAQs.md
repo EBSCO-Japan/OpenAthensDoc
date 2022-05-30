@@ -1,4 +1,8 @@
-https://connect.ebsco.com/s/article/OpenAthens-Data-Security-and-User-Privacy-FAQs?language=en_US
+| 翻訳元 | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| EBSCO Connect | https://connect.ebsco.com/s/article/OpenAthens-Data-Security-and-User-Privacy-FAQs?language=en_US | 2022-05-23 |
+
+
 # OpenAthens - データセキュリティとユーザープライバシーに関するFAQ
 May 5, 2022•Knowledge
 
