@@ -66,7 +66,7 @@ Shibboleth などの代替 IdP から移行する場合は、以下も参照し�
 
 「サービス・プロバイダに接続する」ように構成する方法については、SAML ソースのドキュメントを参照する必要があります。Azure や Google など、より一般的な SAML ソースについては、「[サードパーティ製アプリ](https://docs.openathens.net/tpa/Sign-into-OpenAthens-with-local-authentication-systems.12451899.html)」のセクションにヘルプが用意されています。
 
-このために使用するOpenAthensのメタデータは、OpenAthensで設定した接続のRelying partyタブで引用されているアドレスにあり、以下のような内容になっています： `https://login.openathens.net/saml/2/metadata-sp/domain.com/la/123456`
+このために使用するOpenAthensのメタデータは、OpenAthensで設定した接続のRelying partyタブで引用されているアドレスにあり、以下のような内容になっています： https:\//login.openathens.net/saml/2/metadata-sp/domain.com/la/123456
 
 
 <details>
@@ -74,8 +74,8 @@ Shibboleth などの代替 IdP から移行する場合は、以下も参照し�
 
 |  設定  |  値  |
 | ---- | ---- |
-| EntityID / Provider ID / ID | The same as the OpenAthens metadata address,<br>e.g: `https://login.openathens.net/saml/2/metadata-sp/domain.com/la/123456` |
-| ACS / Association Consumer Service / Binding address / Reply address | Almost the same as the OpenAthens metadata address (change 'metadata-sp' to 'acs'),<br>e.g: `https://login.openathens.net/saml/2/acs/domain.com/la/123456` |
+| EntityID / Provider ID / ID | The same as the OpenAthens metadata address,<br>e.g: https:\//login.openathens.net/saml/2/metadata-sp/domain.com/la/123456 |
+| ACS / Association Consumer Service / Binding address / Reply address | Almost the same as the OpenAthens metadata address (change 'metadata-sp' to 'acs'),<br>e.g: https:\//login.openathens.net/saml/2/acs/domain.com/la/123456 |
 | Binding method | POST |
 | Certificate | see https://docs.openathens.net/libraries/SAML-connector.11567862.html |
 </details>
