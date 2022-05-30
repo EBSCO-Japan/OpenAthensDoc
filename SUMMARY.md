@@ -1,5 +1,5 @@
 * [OpenAthens サポートドキュメント](./Documentation/Libraries/index.md)
-	* [既存のユーザーディレクトリとの接続](./Documentation/Libraries/Per%20page%20help/Management%20menu/Connections/index.md)
+	* [既存のユーザーディレクトリとの接続](./Documentation/Libraries/Per%20page%20help/index.md)
 		* [ADFSコネクター](./Documentation/Libraries/Per%20page%20help/Management%20menu/Connections/ADFS-connector.md)
 		* [SAMLコネクター](./Documentation/Libraries/Per%20page%20help/Management%20menu/Connections/SAML-connector.md)
 	* [アトリビュート・リリース](./Documentation/Libraries/Per%20page%20help/Preference%20menu/Attribute-release.md)
