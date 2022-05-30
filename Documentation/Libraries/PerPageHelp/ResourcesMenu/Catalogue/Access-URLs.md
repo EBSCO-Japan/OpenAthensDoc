@@ -21,9 +21,9 @@ Redirectorリンクがユーザーに表示される場合、通常、アクセ�
 
 サービスのサインオンポイントにentityIDと、場合によってはターゲットのページを渡すのが主要なタイプです：
 
-https\://sp.resource.example/oa/signin?entityID=https://idp.eduserv.org.uk/openathens または
+https\://sp.resource.example/oa/signin?entityID=https\://idp.eduserv.org.uk/openathens または
 
-https\://sp.resource.example/oa/signin?entityID=https://idp.eduserv.org.uk/openathens&target=https://sp.resource.example/content
+https\://sp.resource.example/oa/signin?entityID=https\://idp.eduserv.org.uk/openathens&target=https://sp.resource.example/content
 
 これらのリンクには、ご自身のentityIDをお使いください。
 
