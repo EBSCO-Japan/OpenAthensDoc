@@ -5,6 +5,8 @@
 			* [セキュリティの技術的な考慮事項](./EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md#openathens-技術的なセキュリティの考慮事項)
 		* [既存のフェデレーションとの並行稼働](./EBSCOConnect/Implementing-OpenAthens-alongside-an-Existing-Single-Sign-on-Federation-Membership.md)
 	* [OpenAthens サポートドキュメント](./Documentation/index.md)
+		* [ADFSコネクター](./Documentation/Libraries/Per%20page%20help/Management%20menu/Connections/ADFS-connector.md)
+		* [SAMLコネクター](./Documentation/Libraries/Per%20page%20help/Management%20menu/Connections/SAML-connector.md)
 		* [既存のユーザーディレクトリとの接続](./Documentation/Libraries/Per%20page%20help/Management%20menu/Connections/index.md)
 			* [ADFSコネクター](./Documentation/Libraries/Per%20page%20help/Management%20menu/Connections/ADFS-connector.md)
 			* [SAMLコネクター](./Documentation/Libraries/Per%20page%20help/Management%20menu/Connections/SAML-connector.md)
