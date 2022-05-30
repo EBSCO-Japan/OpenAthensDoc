@@ -1,0 +1,573 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>ADFSコネクター · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="SAML-connector.html" />
+    
+    
+    <link rel="prev" href="../../" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../../../">
+            
+                <a href="../../../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    OpenAthens サポートドキュメント
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    既存のユーザーディレクトリとの接続
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1.1" data-path="ADFS-connector.html">
+            
+                <a href="ADFS-connector.html">
+            
+                    
+                    ADFSコネクター
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.2" data-path="SAML-connector.html">
+            
+                <a href="SAML-connector.html">
+            
+                    
+                    SAMLコネクター
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../PreferenceMenu/Attribute-release.html">
+            
+                <a href="../../PreferenceMenu/Attribute-release.html">
+            
+                    
+                    アトリビュート・リリース
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../PreferenceMenu/Redirector%20preferences/Redirector-IP-bypass-zones.md">
+            
+                <span>
+            
+                    
+                    Redirector IPバイパスゾーン
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.3.1" data-path="../../ResourcesMenu/Catalogue/Access-URLs.html">
+            
+                <a href="../../ResourcesMenu/Catalogue/Access-URLs.html">
+            
+                    
+                    アクセスURL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../../../../EBSCOConnect/">
+            
+                <a href="../../../../../EBSCOConnect/">
+            
+                    
+                    EBSCO Connect
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../../../../EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.html">
+            
+                <a href="../../../../../EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.html">
+            
+                    
+                    セキュリティとプライバシー
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" data-path="../../../../../EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.html">
+            
+                <a href="../../../../../EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.html#openathens-の設定と管理">
+            
+                    
+                    OpenAthensの設定と管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.1.2" data-path="../../../../../EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.html">
+            
+                <a href="../../../../../EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.html#openathens-技術的なセキュリティの考慮事項">
+            
+                    
+                    セキュリティの技術的な考慮事項
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../../../../EBSCOConnect/Implementing-OpenAthens-alongside-an-Existing-Single-Sign-on-Federation-Membership.html">
+            
+                <a href="../../../../../EBSCOConnect/Implementing-OpenAthens-alongside-an-Existing-Single-Sign-on-Federation-Membership.html">
+            
+                    
+                    既存のフェデレーションとの並行稼働
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../../../.." >ADFSコネクター</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><a href="https://docs.openathens.net/libraries/ADFS-connector.11436549.html" target="_blank">https://docs.openathens.net/libraries/ADFS-connector.11436549.html</a></p>
+<h1 id="adfs-&#x30B3;&#x30CD;&#x30AF;&#x30BF;&#x30FC;">ADFS &#x30B3;&#x30CD;&#x30AF;&#x30BF;&#x30FC;</h1>
+<p>&#x30D1;&#x30B9;: Management &gt; Connections &gt; Add &gt; ADFS</p>
+<p>OpenAthens &#x306F;&#x3001;ADFS (Active Directory Federation Services) &#x3068;&#x63A5;&#x7D9A;&#x3067;&#x304D;&#x308B;&#x305F;&#x3081;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306B;&#x500B;&#x4EBA;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x767A;&#x884C;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093; (OpenAthens &#x7BA1;&#x7406;&#x8005;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x306F;&#x5F15;&#x304D;&#x7D9A;&#x304D;&#x5FC5;&#x8981;&#x3067;&#x3059;)&#x3002;</p>
+<p>&#x5225;&#x306E;&#x8A8D;&#x8A3C;&#x60C5;&#x5831;&#x30BB;&#x30C3;&#x30C8;&#x3092;&#x7DAD;&#x6301;&#x3059;&#x308B;&#x4EE3;&#x308F;&#x308A;&#x306B;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x4F7F;&#x7528;&#x3067;&#x304D;&#x308B;&#x3060;&#x3051;&#x3067;&#x306A;&#x304F;&#x3001;&#x3059;&#x3067;&#x306B;&#x30C7;&#x30A3;&#x30B9;&#x30AB;&#x30D0;&#x30EA;&#x30FC;&#xFF08;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306E;&#x30DB;&#x30FC;&#x30E0;&#x7D44;&#x7E54;&#x306E;&#x7279;&#x5B9A;&#xFF09;&#x3092;&#x4F34;&#x3063;&#x3066;&#x3044;&#x308B;&#x30D5;&#x30A7;&#x30C7;&#x30EC;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x30FB;&#x30EA;&#x30BD;&#x30FC;&#x30B9;&#x3078;&#x306E;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x306F;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x3092;&#x76F4;&#x63A5;ADFS&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x306B;&#x5C0E;&#x304F;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<h2 id="&#x6E96;&#x5099;">&#x6E96;&#x5099;</h2>
+<p>&#x4F5C;&#x696D;&#x3092;&#x958B;&#x59CB;&#x3059;&#x308B;&#x524D;&#x306B;&#x3001;&#x4EE5;&#x4E0B;&#x304C;&#x5FC5;&#x8981;&#x3067;&#x3059;:</p>
+<ul>
+<li>ADFS v2.0 &#x4EE5;&#x4E0A;&#xFF08;&#x63A8;&#x5968;&#xFF09;&#x304C;&#x52D5;&#x4F5C;&#x3059;&#x308B; Windows Server 2008R2 &#x4EE5;&#x964D;&#x3002;</li>
+<li>ADFS &#x3092;&#x8A2D;&#x5B9A;&#x3057;&#x3001;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x63D0;&#x4F9B;&#x3059;&#x308B; IT &#x30C1;&#x30FC;&#x30E0;&#x306E;&#x30E1;&#x30F3;&#x30D0;&#x30FC;&#x3002;<ul>
+<li>ADFS &#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x3001;&#x5916;&#x90E8;&#x304B;&#x3089;&#x30A2;&#x30AF;&#x30BB;&#x30B9; URL &#x304C;&#x7406;&#x60F3;&#x7684;&#x3067;&#x3059;&#x304C;&#x3001;&#x7121;&#x3051;&#x308C;&#x3070;XML &#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x5F62;&#x5F0F;&#x306E;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x30B3;&#x30D4;&#x30FC;&#x3002;</li>
+</ul>
+</li>
+<li>&#x3059;&#x3079;&#x3066;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x304C;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x306B;&#x5B58;&#x5728;&#x3059;&#x308B;&#x3053;&#x3068;&#x3002;</li>
+<li>&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x30EC;&#x30D9;&#x30EB;&#x3067;&#x306E; OpenAthens &#x7BA1;&#x7406;&#x30A8;&#x30EA;&#x30A2;&#x3078;&#x306E;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x6A29;&#x3002;
+Shibboleth &#x306A;&#x3069;&#x306E;&#x4EE3;&#x66FF; IdP &#x304B;&#x3089;&#x79FB;&#x884C;&#x3059;&#x308B;&#x5834;&#x5408;&#x306F;&#x3001;<a href="https://docs.openathens.net/libraries/Migrating-from-your-own-IdP.11567392.html" target="_blank">Migrating from your own IdP</a>&#x3082;&#x53C2;&#x7167;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</li>
+</ul>
+<p>&#x3082;&#x3057;&#x4F55;&#x304B;&#x308F;&#x304B;&#x3089;&#x306A;&#x3044;&#x3053;&#x3068;&#x304C;&#x3042;&#x3063;&#x305F;&#x308A;&#x3001;&#x884C;&#x304D;&#x8A70;&#x307E;&#x3063;&#x305F;&#x308A;&#x3057;&#x305F;&#x5834;&#x5408;&#x306F;&#x3001;&#x79C1;&#x305F;&#x3061;&#x304C;&#x559C;&#x3093;&#x3067;&#x304A;&#x624B;&#x4F1D;&#x3044;&#x3057;&#x307E;&#x3059;&#x3002;&#x7BA1;&#x7406;&#x753B;&#x9762;&#x306E;&#x53F3;&#x4E0A;&#x306B;&#x3042;&#x308B;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x30EA;&#x30F3;&#x30AF;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3059;&#x308B;&#x3068;&#x3001;&#x304A;&#x8FD1;&#x304F;&#x306E;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x62C5;&#x5F53;&#x8005;&#x306B;&#x3064;&#x306A;&#x304C;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h2 id="openathens&#x3067;&#x63A5;&#x7D9A;&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;">OpenAthens&#x3067;&#x63A5;&#x7D9A;&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;</h2>
+<p>&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x7BA1;&#x7406;&#x8005;&#x3068;&#x3057;&#x3066;&#x7BA1;&#x7406;&#x30A4;&#x30F3;&#x30BF;&#x30FC;&#x30D5;&#x30A7;&#x30A4;&#x30B9;&#x3067;&#x3001; Management &gt; Connections &#x3092;&#x9078;&#x629E;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>(ADFS&#x304C;&#x3059;&#x3067;&#x306B;SAML&#x63A5;&#x7D9A;&#x3068;&#x3057;&#x3066;&#x8868;&#x793A;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x5834;&#x5408;&#x306F;&#x3001;&#x305D;&#x306E;&#x63A5;&#x7D9A;&#x3092;&#x524A;&#x9664;&#x3057;&#x3066;&#x304B;&#x3089;&#x3001;&#x518D;&#x3073;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#xFF09;</p>
+<ol>
+<li>&#x5DE6;&#x306E;add&#x30DC;&#x30BF;&#x30F3;&#x3092;&#x30AF;&#x30EA;&#x30C3;&#x30AF;&#x3057;&#x3001;ADFS&#x3092;&#x9078;&#x629E;&#x3057;&#x307E;&#x3059;&#x3002;</li>
+</ol>
+<ol>
+<li><p>IT &#x30C1;&#x30FC;&#x30E0;&#x304B;&#x3089;&#x63D0;&#x4F9B;&#x3055;&#x308C;&#x305F;ADFS &#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x306E; URL &#x3092;&#x5165;&#x529B;&#x3059;&#x308B;&#x304B;&#x3001;xml &#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x30A2;&#x30C3;&#x30D7;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<ol>
+<li>&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x306E;URL&#x306F;&#x901A;&#x5E38;&#x3001; <a href="https://YOURDOMAIN/FederationMetadata/2007-06/FederationMetadata.xml" target="_blank">https://YOURDOMAIN/FederationMetadata/2007-06/FederationMetadata.xml</a> &#x306E;&#x3088;&#x3046;&#x306A;&#x3082;&#x306E;&#x3067;&#x3001;&#x30CD;&#x30C3;&#x30C8;&#x30EF;&#x30FC;&#x30AF;&#x5916;&#x304B;&#x3089;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3067;&#x304D;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</li>
+</ol>
+</li>
+<li><p>&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x8B58;&#x5225;&#x5B50;&#x30D5;&#x30A3;&#x30FC;&#x30EB;&#x30C9;&#x3092;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x8B58;&#x5225;&#x5B50;&#x3068;&#x3057;&#x3066;&#x9001;&#x4FE1;&#x3059;&#x308B;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x3068;&#x4E00;&#x81F4;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x306F;&#x5F8C;&#x3067;&#x5909;&#x66F4;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x304C;&#x3001;&#x30DA;&#x30FC;&#x30B8;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x305F;&#x3081;&#x306B;&#x5024;&#x3092;&#x6301;&#x3064;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+</li>
+<li><p>&#x4F7F;&#x7528;&#x3059;&#x308B;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x306B;&#x5408;&#x308F;&#x305B;&#x305F;&#x8868;&#x793A;&#x540D;&#x3092;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;1&#x3064;&#x306E;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x3057;&#x304B;&#x9001;&#x4FE1;&#x3057;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x8B58;&#x5225;&#x5B50;&#x3068;&#x540C;&#x3058;&#x306B;&#x8A2D;&#x5B9A;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x3082;&#x5F8C;&#x3067;&#x5909;&#x66F4;&#x53EF;&#x80FD;&#x3067;&#x3059;&#x304C;&#x3001;&#x30DA;&#x30FC;&#x30B8;&#x3092;&#x4FDD;&#x5B58;&#x3059;&#x308B;&#x305F;&#x3081;&#x306B;&#x5024;&#x3092;&#x6301;&#x3064;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+</li>
+<li><p>&#x3053;&#x306E;&#x6642;&#x70B9;&#x3067;&#x306F;&#x3001;&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x3068;&#x3057;&#x3066;&#x8A2D;&#x5B9A;&#x3057;&#x306A;&#x3044;&#x3067;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+</li>
+<li><p>&#x5909;&#x66F4;&#x3092;&#x4FDD;&#x5B58;&#x3057;&#x307E;&#x3059;&#x3002; </p>
+</li>
+<li><p>&#x300C;Relying party&#x300D;&#x30BF;&#x30D6;&#x306B;&#x79FB;&#x52D5;&#x3057;&#x3001;&#x305D;&#x3053;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x3092;&#x30E1;&#x30E2;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3059;&#x3002;OpenAthens&#x3092;ADFS&#x306B;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x969B;&#x306B;&#x5FC5;&#x8981;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;
+&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x8A73;&#x7D30;&#x30D5;&#x30A3;&#x30FC;&#x30EB;&#x30C9;&#x306F;&#x6B21;&#x306E;&#x3068;&#x304A;&#x308A;&#x3067;&#x3059;&#xFF1A;</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>&#x30D5;&#x30A3;&#x30FC;&#x30EB;&#x30C9;</th>
+<th>&#x8AAC;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Display name</td>
+<td>&#x30B3;&#x30CD;&#x30AF;&#x30BF;&#x306E;&#x9078;&#x629E;&#x304C;&#x3042;&#x308B;&#x969B;&#x306B;&#x3001;&#x8A8D;&#x8A3C;&#x30DD;&#x30A4;&#x30F3;&#x30C8;&#x3067;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x63A5;&#x7D9A;&#x306E;&#x540D;&#x524D;&#x3002;&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x306F;&#x3001;ADFS &#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x3067;&#x6307;&#x5B9A;&#x3055;&#x308C;&#x305F;&#x540D;&#x524D;&#x3067;&#x3059;&#x3002;</td>
+</tr>
+<tr>
+<td>Metadata URL</td>
+<td>ADFS &#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x304C;&#x516C;&#x958B;&#x3055;&#x308C;&#x308B;&#x5834;&#x6240;&#x3002;URL &#x304B;&#x3089;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x304C;&#x8AAD;&#x307F;&#x8FBC;&#x307E;&#x308C;&#x305F;&#x3068;&#x304D;&#x306B;&#x306E;&#x307F;&#x5165;&#x529B;&#x3055;&#x308C;&#x3001;ADFS &#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x304C;&#x5909;&#x66F4;&#x3055;&#x308C;&#x305F;&#x3068;&#x304D;&#x306B;&#x63A5;&#x7D9A;&#x3092;&#x7C21;&#x5358;&#x306B;&#x66F4;&#x65B0;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;</td>
+</tr>
+<tr>
+<td>EntityID</td>
+<td>ADFS &#x30A4;&#x30F3;&#x30B9;&#x30BF;&#x30F3;&#x30B9;&#x306E;&#x30A8;&#x30F3;&#x30C6;&#x30A3;&#x30C6;&#x30A3;&#x8B58;&#x5225;&#x5B50;&#x3002;&#x901A;&#x5E38;&#x3001;<a href="http://YOURDOMAIN/adfs/services/trust" target="_blank">http://YOURDOMAIN/adfs/services/trust</a> &#x3002;ADFS &#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x304B;&#x3089;&#x53D6;&#x5F97;&#x3002;</td>
+</tr>
+<tr>
+<td>SSO endpoint</td>
+<td>&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x3002;&#x901A;&#x5E38;&#x3001;<a href="https://YOURDOMAIN/adfs/ls/" target="_blank">https://YOURDOMAIN/adfs/ls/</a> &#x3002;ADFS &#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x304B;&#x3089;&#x53D6;&#x5F97;&#x3002;</td>
+</tr>
+<tr>
+<td>Display name attribute</td>
+<td>&#x3053;&#x3053;&#x3067;&#x6307;&#x5B9A;&#x3057;&#x305F;&#x5C5E;&#x6027;&#x306F;&#x3001;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x30EA;&#x30B9;&#x30C8;&#x3084;audit&#x3067;&#x901A;&#x5E38;OpenAthens&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x540D;&#x304C;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x5834;&#x6240;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x308B;&#x5024;&#x3092;&#x4F9B;&#x7D66;&#x3057;&#x307E;&#x3059;&#x3002;&#x4EBA;&#x9593;&#x304C;&#x8AAD;&#x3081;&#x308B;&#x3088;&#x3046;&#x306A;&#x3082;&#x306E;&#x3092;&#x63A8;&#x5968;&#x3057;&#x307E;&#x3059;&#x3002;DisplayName &#x304C;&#x4E00;&#x822C;&#x7684;&#x306A;&#x30BD;&#x30FC;&#x30B9;&#x3067;&#x3059;&#x304C;&#x3001;Unique user attribute claim &#x3068;&#x7570;&#x306A;&#x308B;&#x3082;&#x306E;&#x3067;&#x3042;&#x308B;&#x5FC5;&#x8981;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;</td>
+</tr>
+<tr>
+<td>Unique user attribute</td>
+<td>&#x3053;&#x3053;&#x3067;&#x6307;&#x5B9A;&#x3059;&#x308B;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x306F;&#x3001;&#x73FE;&#x5728;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x30BB;&#x30C3;&#x30C8;&#x5185;&#x3067;&#x305D;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306B;&#x56FA;&#x6709;&#x306E;&#x5024;&#x3067;&#x306A;&#x304F;&#x3066;&#x306F;&#x306A;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;&#x304B;&#x3064;&#x3001;&#x305D;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306B;&#x56FA;&#x6709;&#x306E;&#x4EEE;&#x540D;&#x5024;&#x3092;&#x5E38;&#x306B;&#x63D0;&#x4F9B;&#x3057;&#x306A;&#x304F;&#x3066;&#x306F;&#x306A;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;&#x3053;&#x308C;&#x306F;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x3067;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x3092;&#x533A;&#x5225;&#x3059;&#x308B;&#x305F;&#x3081;&#x306B;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x3001;&#x307E;&#x305F;TargetedID&#x3084;&#x7D71;&#x8A08;&#x306E;&#x751F;&#x6210;&#x306B;&#x3082;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x306F;&#x3001;&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x6642;&#x306B;&#x5165;&#x529B;&#x3055;&#x308C;&#x305F;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x540D;&#x3067;&#x3042;&#x308B;&#x5FC5;&#x8981;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;&#x3088;&#x304F;&#x4F7F;&#x308F;&#x308C;&#x308B;&#x306E;&#x306F;ObjectGUID&#x3067;&#x3059;&#x3002;</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Not live = &#x63A5;&#x7D9A;&#x306F;&#x30C7;&#x30D0;&#x30C3;&#x30B0;&#x30E2;&#x30FC;&#x30C9;&#x3067;&#x306E;&#x307F;&#x4F7F;&#x7528;&#x53EF;&#x80FD;&#x3067;&#x3059;&#x3002;visibility&#x3068;default&#x30D5;&#x30E9;&#x30B0;&#x306F;&#x7121;&#x8996;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;<br>Live and visible (&#x3053;&#x308C;&#x304C;&#x552F;&#x4E00;&#x306E;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x63A5;&#x7D9A;&#x3067;&#x3042;&#x308B;&#x5834;&#x5408;) = &#x63A5;&#x7D9A;&#x306F;&#x30C7;&#x30D0;&#x30C3;&#x30B0;&#x30E2;&#x30FC;&#x30C9;&#x3067;&#x306E;&#x307F;&#x4F7F;&#x7528;&#x53EF;&#x80FD;&#x3067;&#x3059;&#x3002; <br>Live and visible (&#x8907;&#x6570;&#x306E;&#x30E9;&#x30A4;&#x30D6;&#x63A5;&#x7D9A;&#x3068;&#x53EF;&#x8996;&#x5316;&#x3055;&#x308C;&#x305F;&#x63A5;&#x7D9A;&#x304C;&#x3042;&#x308B;&#x5834;&#x5408;) = &#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306F;&#x3001;&#x3053;&#x306E;&#x63A5;&#x7D9A;&#x3092;&#x542B;&#x3080;&#x9078;&#x629E;&#x80A2;&#x3092;&#x63D0;&#x4F9B;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;OpenAthens&#x306E;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x542B;&#x3081;&#x308B;&#x304B;&#x3069;&#x3046;&#x304B;&#x306F;&#x3001;&#x30C9;&#x30E1;&#x30A4;&#x30F3;&#x306E;&#x8A2D;&#x5B9A;&#x306B;&#x3088;&#x308A;&#x307E;&#x3059;&#x3002;<br>Live &amp; visible &amp; default = &#x3053;&#x308C;&#x306F;&#x3001;&#x3042;&#x306A;&#x305F;&#x306E;&#x552F;&#x4E00;&#x306E;&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x30AA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x3067;&#x3042;&#x308A;&#x3001;&#x7D44;&#x7E54;&#x304C;&#x77E5;&#x3089;&#x308C;&#x3066;&#x3044;&#x308B;&#x3068;&#x304D;&#x306F;&#x3044;&#x3064;&#x3067;&#x3082;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306F;&#x3042;&#x306A;&#x305F;&#x306E;&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x306B;&#x76F4;&#x63A5;&#x9001;&#x4FE1;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;&#x8A8D;&#x8A3C;&#x306B;&#x6210;&#x529F;&#x3059;&#x308B;&#x3068;&#x3001;&#x8A8D;&#x8A3C;&#x30DD;&#x30A4;&#x30F3;&#x30C8;&#x306F;&#x305D;&#x306E;&#x5834;&#x6240;&#x3092;&#x8A18;&#x61B6;&#x3057;&#x307E;&#x3059;&#x3002;&#x8A8D;&#x8A3C;&#x306B;&#x5931;&#x6557;&#x3059;&#x308B;&#x3068;&#x3001;&#x305D;&#x306E;&#x8A2D;&#x5B9A;&#x306F;&#x30AF;&#x30EA;&#x30A2;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;&#x30C7;&#x30D0;&#x30C3;&#x30B0;&#x30E2;&#x30FC;&#x30C9;&#x3067;&#x306F;&#x3001;&#x4ED6;&#x306E;&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x30AA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x306F;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x305B;&#x3093;&#x3002;<br>&#x30B9;&#x30C6;&#x30FC;&#x30BF;&#x30B9;&#x306E;&#x5909;&#x66F4;&#x306F;&#x3001;&#x901A;&#x5E38;&#x3001;&#x77AC;&#x6642;&#x306B;&#x53CD;&#x6620;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</td>
+</tr>
+<tr>
+<td>Create local accounts</td>
+<td>Automatically - &#x3042;&#x306A;&#x305F;&#x306E;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x3067;&#x8A8D;&#x8A3C;&#x3055;&#x308C;&#x3001;&#x79C1;&#x305F;&#x3061;&#x306B;&#x5F15;&#x304D;&#x6E21;&#x3055;&#x308C;&#x305F;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306F;&#x3001;&#x554F;&#x984C;&#x306A;&#x3044;&#x3068;&#x307F;&#x306A;&#x3055;&#x308C;&#x3001;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x3067;&#x53D7;&#x3051;&#x5165;&#x308C;&#x3089;&#x308C;&#x307E;&#x3059;&#x3002;<br>Manually - &#x30EA;&#x30B9;&#x30C8;&#x30DA;&#x30FC;&#x30B8;&#x3067;&#x904E;&#x53BB;&#x306B;&#x30A2;&#x30C3;&#x30D7;&#x30ED;&#x30FC;&#x30C9;&#x3057;&#x305F;&#x30E6;&#x30FC;&#x30B6;&#x30FC;ID&#x306E;&#x307F;&#x3001;&#x79C1;&#x305F;&#x3061;&#x306E;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x3067;&#x53D7;&#x3051;&#x4ED8;&#x3051;&#x307E;&#x3059;&#x3002;</td>
+</tr>
+<tr>
+<td>Remove local accounts</td>
+<td>&#x3053;&#x306E;&#x8A2D;&#x5B9A;&#x306F;&#x3001;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x304C;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x304B;&#x3089;&#x81EA;&#x52D5;&#x7684;&#x306B;&#x30AF;&#x30EA;&#x30A2;&#x3055;&#x308C;&#x308B;&#x30BF;&#x30A4;&#x30DF;&#x30F3;&#x30B0;&#x3092;&#x5236;&#x5FA1;&#x3057;&#x3001;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x304C;&#x6700;&#x5F8C;&#x306B;&#x30B5;&#x30A4;&#x30F3;&#x30A4;&#x30F3;&#x3057;&#x305F;&#x65E5;&#x304B;&#x3089;&#x306E;&#x65E5;&#x6570;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;&#x307E;&#x305F;&#x3001;&#x30DE;&#x30C3;&#x30D7;&#x6E08;&#x307F;&#x306E;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3067;&#x672A;&#x78BA;&#x8A8D;&#x306E;&#x3082;&#x306E;&#x3082;&#x30AF;&#x30EA;&#x30A2;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;<br>&#x8A2D;&#x5B9A;&#x53EF;&#x80FD;&#x306A;&#x65E5;&#x6570;&#x306F;1&#xFF5E;365&#x65E5;&#x3067;&#x3001;&#x305D;&#x306E;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x304C;&#x6700;&#x5F8C;&#x306B;&#x30B5;&#x30A4;&#x30F3;&#x30A4;&#x30F3;&#x3057;&#x305F;&#x65E5;&#x304B;&#x3089;&#x7D4C;&#x904E;&#x3057;&#x305F;&#x5B8C;&#x5168;&#x306A;&#x65E5;&#x6570;&#x3092;&#x8868;&#x3057;&#x307E;&#x3059;&#x3002;&#x3064;&#x307E;&#x308A;&#x3001;&#x6700;&#x5F8C;&#x306B;&#x30B5;&#x30A4;&#x30F3;&#x30A4;&#x30F3;&#x3057;&#x305F;&#x65E5;&#x306F;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x306B;&#x542B;&#x307E;&#x308C;&#x307E;&#x305B;&#x3093;&#x3002;&#x3053;&#x3061;&#x3089;&#x3082;&#x3054;&#x89A7;&#x304F;&#x3060;&#x3055;&#x3044;&#xFF1A;<a href="https://docs.openathens.net/libraries/How-to-modify-a-local-account.11010371.html" target="_blank">How to modify a local account</a></td>
+</tr>
+<tr>
+<td>Salt value</td>
+<td>&#x3053;&#x306E;&#x63A5;&#x7D9A;&#x3067;&#x8A8D;&#x8A3C;&#x3055;&#x308C;&#x305F;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306E;TargetedID&#x3092;&#x751F;&#x6210;&#x3059;&#x308B;&#x305F;&#x3081;&#x306B;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x308B;&#x30BD;&#x30EB;&#x30C8;&#x3002;<br>OpenAthens LA &#x306A;&#x3069;&#x304B;&#x3089; MD &#x306B;&#x79FB;&#x884C;&#x3059;&#x308B;&#x969B;&#x306B;&#x3053;&#x306E;&#x5024;&#x3092;&#x7DE8;&#x96C6;&#x3057;&#x3001; &#x30E6;&#x30FC;&#x30B6;&#x304C;&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x3092;&#x5909;&#x66F4;&#x3057;&#x3066;&#x3082;&#x540C;&#x3058; TargetedID &#x5024;&#x3092;&#x4FDD;&#x6301;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x3092;&#x7A7A;&#x767D;&#x306B;&#x3059;&#x308B;&#x3068;&#x3001;MD &#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3068;&#x540C;&#x3058; salt &#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;<br>&#x672C;&#x7A3C;&#x50CD;&#x5F8C;&#x306B;&#x3053;&#x306E;&#x8A2D;&#x5B9A;&#x3092;&#x5909;&#x66F4;&#x3059;&#x308B;&#x3068;&#x3001;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x30D7;&#x30ED;&#x30D0;&#x30A4;&#x30C0;&#x30FC;&#x304B;&#x3089;&#x898B;&#x305F;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306E;&#x8B58;&#x5225;&#x5B50;&#x304C;&#x5909;&#x308F;&#x3063;&#x3066;&#x3057;&#x307E;&#x3046;&#x306E;&#x3067;&#x3001;&#x671B;&#x307E;&#x3057;&#x3044;&#x3053;&#x3068;&#x3067;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="adfs&#x306E;relying-party&#x3068;&#x3057;&#x3066;openathens&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x3002;">ADFS&#x306E;relying party&#x3068;&#x3057;&#x3066;OpenAthens&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x3002;</h2>
+<p>&#x6B21;&#x306E;&#x30BB;&#x30AF;&#x30B7;&#x30E7;&#x30F3;&#x306F;&#x3001;&#x3042;&#x306A;&#x305F;&#x304C;ADFS&#x306B;&#x7CBE;&#x901A;&#x3057;&#x3066;&#x3044;&#x308B;&#x3053;&#x3068;&#x3092;&#x524D;&#x63D0;&#x3068;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x305D;&#x3046;&#x3067;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x3001;&#x6B21;&#x306E;3&#x3064;&#x306E;&#x30B9;&#x30C6;&#x30C3;&#x30D7;&#x3067;&#x3088;&#x308A;&#x8A73;&#x7D30;&#x306A;&#x30AC;&#x30A4;&#x30C9;&#x3092;&#x5229;&#x7528;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<ol>
+<li><p>ADFS&#x7BA1;&#x7406;&#x30B3;&#x30F3;&#x30BD;&#x30FC;&#x30EB;&#x3067;&#x3001;&#x5148;&#x307B;&#x3069;&#x8A18;&#x9332;&#x3057;&#x305F;OpenAthens&#x306E;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x3001;&#x65B0;&#x3057;&#x3044;relying party&#x3092;&#x8FFD;&#x52A0;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+</li>
+<li><p>&#x6700;&#x4F4E;&#x9650;&#x4E00;&#x3064;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x8B58;&#x5225;&#x5B50;&#x5C5E;&#x6027;&#x3092;&#x89E3;&#x653E;&#x3059;&#x308B;&#x3088;&#x3046;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x30EB;&#x30FC;&#x30EB;&#x3092;&#x7DE8;&#x96C6;&#x3059;&#x308B;&#x3002;</p>
+<ol>
+<li><p>&#x30B7;&#x30F3;&#x30D7;&#x30EB;&#x306A;&#x300C;Send LDAP Attributes as Claims&#x300D;&#x30EB;&#x30FC;&#x30EB;&#x3067;&#x5145;&#x5206;&#x3067;&#x3059;&#x3002;</p>
+</li>
+<li><p>&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x5024;&#x306F;&#x73FE;&#x5728;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x9593;&#x3067;&#x4E00;&#x610F;&#x3067;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x305A;&#x3001;&#x7406;&#x60F3;&#x7684;&#x306B;&#x306F;&#x4EEE;&#x540D;&#x3067;&#x6C38;&#x4E45;&#x306B;&#x4E00;&#x610F;&#x3067;&#x3042;&#x308B;&#x3079;&#x304D;&#x3067;&#x3059;&#x3002;objectGUID&#x306E;&#x3088;&#x3046;&#x306A;&#x3082;&#x306E;&#x304C;&#x826F;&#x3044;&#x9078;&#x629E;&#x3067;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+</li>
+<li><p>&#x547D;&#x540D;&#x306B;&#x95A2;&#x3059;&#x308B;&#x8003;&#x616E;&#x70B9;</p>
+<ol>
+<li>ADFS&#x306E;&#x540D;&#x524D;&#x7A7A;&#x9593;&#x306B;&#x6163;&#x308C;&#x3066;&#x3044;&#x306A;&#x3044;&#x5834;&#x5408;&#x3001;&#x3042;&#x308B;&#x3044;&#x306F;&#x56F3;&#x66F8;&#x9928;&#x306E;&#x540C;&#x50DA;&#x304C;&#x76EE;&#x306B;&#x3059;&#x308B;&#x30A4;&#x30F3;&#x30BF;&#x30FC;&#x30D5;&#x30A7;&#x30FC;&#x30B9;&#x306B;&#x3001;&#x3088;&#x308A;&#x610F;&#x5473;&#x306E;&#x3042;&#x308B;&#x540D;&#x524D;&#x3092;&#x4ED8;&#x3051;&#x305F;&#x3044;&#x5834;&#x5408;&#x3001;&#x4E88;&#x7D04;&#x8A9E;&#x3092;&#x8AA4;&#x3063;&#x3066;&#x4F7F;&#x7528;&#x3057;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x3001;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x540D;&#x306E;&#x524D;&#x306B;&#x300C;oa_&#x300D;&#x306E;&#x3088;&#x3046;&#x306A;&#x3082;&#x306E;&#x3092;&#x4ED8;&#x3051;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;(&#x4F8B;: &#x300C;oa_username&#x300D;)&#x3002;</li>
+<li>&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x540D;&#x306B;&#x30B9;&#x30DA;&#x30FC;&#x30B9;&#x3092;&#x542B;&#x3093;&#x3067;&#x306F;&#x3044;&#x3051;&#x307E;&#x305B;&#x3093;&#x3002;</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>&#x4FDD;&#x5B58;</p>
+</li>
+</ol>
+<p>&#x56F3;&#x66F8;&#x9928;&#x306E;&#x30CB;&#x30FC;&#x30BA;&#x306B;&#x3088;&#x3063;&#x3066;&#x306F;&#x3053;&#x308C;&#x3067;&#x5341;&#x5206;&#x304B;&#x3082;&#x3057;&#x308C;&#x307E;&#x305B;&#x3093;&#x304C;&#x3001;&#x901A;&#x5E38;&#x306F;&#x3088;&#x308A;&#x591A;&#x304F;&#x306E;&#x60C5;&#x5831;&#x3092;&#x516C;&#x958B;&#x3057;&#x3066;&#x3001;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x3092; OpenAthens &#x306E;&#x5C5E;&#x6027;&#x306B;&#x30DE;&#x30C3;&#x30D7;&#x3057;&#x3001;&#x7D44;&#x7E54;&#x3001;&#x7D71;&#x8A08;&#x3001;&#x30EA;&#x30BD;&#x30FC;&#x30B9;&#x30A2;&#x30AF;&#x30BB;&#x30B9;&#x3001;&#x8868;&#x793A;&#x540D;&#x3001;&#x30EA;&#x30BD;&#x30FC;&#x30B9;&#x5272;&#x308A;&#x5F53;&#x3066;&#x306B;&#x5229;&#x7528;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;&#x4F8B;&#x3048;&#x3070;&#xFF1A;</p>
+<ul>
+<li>&#x56F3;&#x66F8;&#x9928;&#x304C;&#x5229;&#x7528;&#x8005;&#x3092;&#x7279;&#x5B9A;&#x3059;&#x308B;&#x305F;&#x3081;&#x306B;&#x5FC5;&#x8981;&#x306A;&#x59D3;&#x3068;&#x540D;&#x3002;</li>
+<li>&#x56F3;&#x66F8;&#x9928;&#x304C;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306B;&#x9023;&#x7D61;&#x3057;&#x305F;&#x308A;&#x3001;&#x5834;&#x5408;&#x306B;&#x3088;&#x3063;&#x3066;&#x306F;&#x305D;&#x306E;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x30D7;&#x30ED;&#x30D0;&#x30A4;&#x30C0;&#x30FC;&#x306B;&#x516C;&#x958B;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x96FB;&#x5B50;&#x30E1;&#x30FC;&#x30EB;&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x3002;</li>
+<li>&#x30EB;&#x30FC;&#x30EB;&#x306B;&#x57FA;&#x3065;&#x3044;&#x3066;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306E;&#x7570;&#x306A;&#x308B;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x306B;&#x7570;&#x306A;&#x308B;&#x6A29;&#x9650;&#x30BB;&#x30C3;&#x30C8;&#x3092;&#x5272;&#x308A;&#x5F53;&#x3066;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E; memberOf &#x306A;&#x3069;&#x306E;&#x5C5E;&#x6027;&#x3002;</li>
+<li>&#x8868;&#x793A;&#x540D;&#x3068;&#x3057;&#x3066;&#x4F7F;&#x7528;&#x3055;&#x308C;&#x308B;&#x5C5E;&#x6027;&#x3002;</li>
+<li>&#x7D71;&#x8A08;&#x306E;&#x96C6;&#x8A08;&#x306E;&#x305F;&#x3081;&#x306E;&#x90E8;&#x7F72;&#x540D;&#x307E;&#x305F;&#x306F; OU &#x540D;&#x3002;</li>
+</ul>
+<p>&#x3069;&#x306E;&#x3088;&#x3046;&#x306A;&#x5834;&#x5408;&#x3067;&#x3082;&#x3001;&#x56F3;&#x66F8;&#x9928;&#x306F;&#x6B21;&#x306E;&#x30BB;&#x30C3;&#x30C8;&#x30A2;&#x30C3;&#x30D7;&#x306E;&#x305F;&#x3081;&#x306B;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x306E;&#x540D;&#x524D;&#x3092;&#x5FC5;&#x8981;&#x3068;&#x3057;&#x307E;&#x3059;&#x3002;&#x30AF;&#x30EC;&#x30FC;&#x30E0;&#x540D;&#x306F;&#x5927;&#x6587;&#x5B57;&#x3068;&#x5C0F;&#x6587;&#x5B57;&#x304C;&#x533A;&#x5225;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<p>Issuance transform rule&#x306E;&#x4F8B;:</p>
+<p><img src="https://docs.openathens.net/libraries/11436549/ADFS.Claims.png?inst-v=f79effe0-b2fa-4160-b4b6-3b5d44ab3470" alt="ADFSClaims"></p>
+<p>AD&#x306F;&#x3001;sAMAccountName&#x304C;20&#x6587;&#x5B57;&#x4EE5;&#x4E0A;&#x306E;&#x5834;&#x5408;&#x3001;&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x524D;&#x306B;&#x5207;&#x308A;&#x6368;&#x3066;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x306F;&#x3001;&#x4E00;&#x610F;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x5C5E;&#x6027;&#xFF08;unique user attribute&#xFF09;&#x306E;&#x9078;&#x629E;&#x306B;&#x5F71;&#x97FF;&#x3092;&#x4E0E;&#x3048;&#x308B;&#x53EF;&#x80FD;&#x6027;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h2 id="&#x30DE;&#x30C3;&#x30D4;&#x30F3;&#x30B0;&#x3068;&#x30D1;&#x30FC;&#x30DF;&#x30C3;&#x30B7;&#x30E7;&#x30F3;&#x30FB;&#x30BB;&#x30C3;&#x30C8;&#x306E;&#x8A2D;&#x5B9A;">&#x30DE;&#x30C3;&#x30D4;&#x30F3;&#x30B0;&#x3068;&#x30D1;&#x30FC;&#x30DF;&#x30C3;&#x30B7;&#x30E7;&#x30F3;&#x30FB;&#x30BB;&#x30C3;&#x30C8;&#x306E;&#x8A2D;&#x5B9A;</h2>
+<p>&#x6700;&#x5F8C;&#x306B;&#x8A2D;&#x5B9A;&#x3059;&#x308B;&#x306E;&#x306F;&#x3001;&#x30D1;&#x30FC;&#x30DF;&#x30C3;&#x30B7;&#x30E7;&#x30F3;&#x30FB;&#x30BB;&#x30C3;&#x30C8;&#x306E;&#x30EB;&#x30FC;&#x30EB;&#x3068;&#x30A2;&#x30C8;&#x30EA;&#x30D3;&#x30E5;&#x30FC;&#x30C8;&#x30FB;&#x30DE;&#x30C3;&#x30D4;&#x30F3;&#x30B0;&#x306E;2&#x3064;&#x306E;&#x30A8;&#x30EA;&#x30A2;&#x3067;&#x3059;&#xFF1A;</p>
+<ul>
+<li>&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306B;&#x9069;&#x5207;&#x306A;&#x30EA;&#x30BD;&#x30FC;&#x30B9;&#x30FB;&#x30BB;&#x30C3;&#x30C8;&#x3092;&#x5272;&#x308A;&#x5F53;&#x3066;&#x308B;&#x305F;&#x3081;&#x306E;&#x30D1;&#x30FC;&#x30DF;&#x30C3;&#x30B7;&#x30E7;&#x30F3;&#x30FB;&#x30BB;&#x30C3;&#x30C8;&#x306E;&#x30EB;&#x30FC;&#x30EB;</li>
+<li>OpenAthens &#x304C;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x304B;&#x3089;&#x5229;&#x7528;&#x53EF;&#x80FD;&#x306A;&#x30C7;&#x30FC;&#x30BF;&#x3092;&#x4F7F;&#x7528;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x5C5E;&#x6027;&#x30DE;&#x30C3;&#x30D4;&#x30F3;&#x30B0;<ul>
+<li>OpenAthens &#x306F;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x30B5;&#x30A4;&#x30F3;&#x30A4;&#x30F3;&#x3059;&#x308B;&#x3068;&#x304D;&#x306B;&#x3053;&#x308C;&#x3089;&#x306E;&#x5C5E;&#x6027;&#x3092;&#x30AD;&#x30E3;&#x30C3;&#x30B7;&#x30E5;&#x3059;&#x308B;&#x305F;&#x3081;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x6B21;&#x306B; OpenAthens &#x30BB;&#x30C3;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x958B;&#x59CB;&#x3059;&#x308B;&#x307E;&#x3067;&#x3001;ActiveDirectory &#x306E;&#x5909;&#x66F4;&#x306F;&#x53CD;&#x6620;&#x3055;&#x308C;&#x307E;&#x305B;&#x3093;&#x3002;
+&#x672C;&#x7A3C;&#x50CD;&#x306E;&#x6E96;&#x5099;&#x304C;&#x3067;&#x304D;&#x305F;&#x3089;&#x3001;live &#x3068; visible &#x306E;&#x4E21;&#x65B9;&#x306E;&#x30DC;&#x30C3;&#x30AF;&#x30B9;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3057;&#x3001;&#x4FDD;&#x5B58;&#x3057;&#x307E;&#x3059;&#x3002;&#x6570;&#x79D2;&#x5F8C;&#x306B;&#x306F;&#x3001;&#x65B0;&#x3057;&#x3044;&#x63A5;&#x7D9A;&#x304C;&#x30C6;&#x30B9;&#x30C8;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x308B;&#x306F;&#x305A;&#x3067;&#x3059;&#x3002;</li>
+</ul>
+</li>
+</ul>
+<h2 id="&#x30C6;&#x30B9;&#x30C8;&#x65B9;&#x6CD5;">&#x30C6;&#x30B9;&#x30C8;&#x65B9;&#x6CD5;</h2>
+<p>&#x30C7;&#x30A3;&#x30B9;&#x30AB;&#x30D0;&#x30EA;&#x30FC;&#x306F;&#x3001;&#x63A5;&#x7D9A;&#x3092;live &#x304B;&#x3064; visible&#x306B;&#x8A2D;&#x5B9A;&#x3059;&#x308B;&#x307E;&#x3067;&#x4F7F;&#x7528;&#x3067;&#x304D;&#x307E;&#x305B;&#x3093;&#x3002;&#x3053;&#x308C;&#x306F;&#x3001;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x6E96;&#x5099;&#x304C;&#x3067;&#x304D;&#x3066;&#x3044;&#x306A;&#x3044;&#x30AA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x306B;&#x63D0;&#x793A;&#x3057;&#x306A;&#x3044;&#x3088;&#x3046;&#x306B;&#x3059;&#x308B;&#x305F;&#x3081;&#x3067;&#x3059;&#x3002;&#x63A5;&#x7D9A;&#x3092;&#x30C6;&#x30B9;&#x30C8;&#x3059;&#x308B;&#x306B;&#x306F;&#x3001;&#x30C7;&#x30D0;&#x30C3;&#x30B0;&#x30E2;&#x30FC;&#x30C9;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x3001;&#x63A5;&#x7D9A;&#x3092;&#x9078;&#x629E;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x30C6;&#x30B9;&#x30C8;&#x3057;&#x3066;&#x554F;&#x984C;&#x304C;&#x306A;&#x3051;&#x308C;&#x3070;&#x3001;&#x63A5;&#x7D9A;&#x3092;live&#x3001;visible&#x3001;&#x5FC5;&#x8981;&#x306B;&#x5FDC;&#x3058;&#x3066;&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x3068;&#x3057;&#x3066;&#x8A2D;&#x5B9A;&#x3057;&#x3001;&#x4FDD;&#x5B58;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x3067;&#x3001;&#x6570;&#x79D2;&#x5F8C;&#x306B;&#x306F;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x5B9F;&#x969B;&#x306B;&#x63A5;&#x7D9A;&#x3067;&#x304D;&#x308B;&#x3088;&#x3046;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h2 id="&#x8907;&#x6570;&#x306E;&#x30B3;&#x30CD;&#x30AF;&#x30BF;&#x30FC;&#x3068;openathens&#x306E;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;">&#x8907;&#x6570;&#x306E;&#x30B3;&#x30CD;&#x30AF;&#x30BF;&#x30FC;&#x3068;OpenAthens&#x306E;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;</h2>
+<p>&#x3053;&#x306E;&#x30BF;&#x30A4;&#x30D7;&#x306E;&#x30B3;&#x30CD;&#x30AF;&#x30BF;&#x306F;&#x3001;&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x306E;&#x63A5;&#x7D9A;&#x3068;&#x3057;&#x3066;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x306E;&#x304C;&#x6700;&#x9069;&#x3067;&#x3059;&#x3002;&#x3053;&#x306E;&#x30E2;&#x30FC;&#x30C9;&#x3067;&#x306F;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x30EA;&#x30BD;&#x30FC;&#x30B9;&#x306E;&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x6642;&#x306B;&#x9078;&#x629E;&#x3057;&#x305F;&#x308A;&#x3001;WAYFless URL &#x3084;Redirector&#x3092;&#x4F7F;&#x7528;&#x3057;&#x305F;&#x308A;&#x3001;&#x4EE5;&#x524D;&#x306B;&#x8A8D;&#x8A3C;&#x306B;&#x6210;&#x529F;&#x3057;&#x305F;&#x5834;&#x5408;&#x306A;&#x3069;&#x3001;&#x3042;&#x306A;&#x305F;&#x306E;&#x7D44;&#x7E54;&#x304C;&#x308F;&#x304B;&#x3063;&#x3066;&#x3044;&#x308B;&#x72B6;&#x614B;&#x3067;&#x8A8D;&#x8A3C;&#x30DD;&#x30A4;&#x30F3;&#x30C8;&#x306B;&#x5230;&#x7740;&#x3059;&#x308B;&#x3068;&#x3001;&#x79C1;&#x305F;&#x3061;&#x306E;&#x8A8D;&#x8A3C;&#x30DD;&#x30A4;&#x30F3;&#x30C8;&#x3092;&#x898B;&#x308B;&#x3053;&#x3068;&#x306A;&#x304F;&#x3042;&#x306A;&#x305F;&#x306E;&#x30ED;&#x30B0;&#x30A4;&#x30F3;&#x306B;&#x76F4;&#x63A5;&#x6E21;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x8907;&#x6570;&#x306E;&#x63A5;&#x7D9A;&#x3084;OpenAthens&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3068;&#x4E00;&#x7DD2;&#x306B;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308B;&#x5834;&#x5408;&#xFF08;&#x30C7;&#x30A3;&#x30EC;&#x30AF;&#x30C8;&#x30EA;&#x306B;&#x306A;&#x3044;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x30B0;&#x30EB;&#x30FC;&#x30D7;&#x304C;&#x3042;&#x308B;&#x5834;&#x5408;&#x306A;&#x3069;&#xFF09;&#x3001;&#x63A5;&#x7D9A;&#x3092;live&#x304B;&#x3064;visible&#x306B;&#x3057;&#x307E;&#x3059;&#x304C;&#x3001;&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x306B;&#x306F;&#x3057;&#x307E;&#x305B;&#x3093;&#x3002;&#x305D;&#x3057;&#x3066;&#x3001;domain preferences &#x30DA;&#x30FC;&#x30B8;&#x306E;&#x8A2D;&#x5B9A;&#x306B;&#x3088;&#x308A;OpenAthens&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x8A31;&#x53EF;&#x3059;&#x308B;&#x3088;&#x3046;&#x8A2D;&#x5B9A;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x306E;&#x30E2;&#x30FC;&#x30C9;&#x3067;&#x306F;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x3001;&#x3042;&#x306A;&#x305F;&#x306E;&#x7D44;&#x7E54;&#x3092;&#x77E5;&#x3063;&#x3066;&#x3044;&#x308B;&#x72B6;&#x614B;&#x306E;&#x8A8D;&#x8A3C;&#x30DD;&#x30A4;&#x30F3;&#x30C8;&#x306B;&#x5230;&#x7740;&#x3059;&#x308B;&#x3068;&#x3001;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x63A5;&#x7D9A;&#x3092;&#x9078;&#x629E;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x30C1;&#x30E5;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x6700;&#x521D;&#x306B;&#x8868;&#x793A;&#x3055;&#x308C;&#x307E;&#x3059; - &#x3059;&#x3079;&#x3066;&#x306E;live&#x304B;&#x3064;visible&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x308B;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x63A5;&#x7D9A;&#x3068;&#x3001;OpenAthens&#x30A2;&#x30AB;&#x30A6;&#x30F3;&#x30C8;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x30AA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x304C;&#x7528;&#x610F;&#x3055;&#x308C;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x8A8D;&#x8A3C;&#x30DD;&#x30A4;&#x30F3;&#x30C8;&#x306F;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x304C;&#x9078;&#x629E;&#x3057;&#x305F;&#x63A5;&#x7D9A;&#x3092;&#x8A18;&#x61B6;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p><img src="https://docs.openathens.net/libraries/13467661/Davecision.Box.png?inst-v=f79effe0-b2fa-4160-b4b6-3b5d44ab3470" alt="choose"></p>
+<h2 id="&#x591A;&#x5024;&#x5C5E;&#x6027;">&#x591A;&#x5024;&#x5C5E;&#x6027;</h2>
+<p>&#x8907;&#x6570;&#x306E;&#x5024;&#x3092;&#x6301;&#x3064;&#x5C5E;&#x6027;&#xFF08;&#x4F8B;&#x3048;&#x3070;ADFS&#x306E;memberOf&#x30D5;&#x30A3;&#x30FC;&#x30EB;&#x30C9;&#xFF09;&#x3067;&#x306F;&#x3001;&#x30A4;&#x30F3;&#x30BF;&#x30FC;&#x30D5;&#x30A7;&#x30FC;&#x30B9;&#x306F;&#x3059;&#x3079;&#x3066;&#x306E;&#x5024;&#x3092;&#x8868;&#x793A;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x305A;&#x3001;1&#x3064;&#x306E;&#x5024;&#x306E;&#x307F;&#x3092;&#x8868;&#x793A;&#x3057;&#x307E;&#x3059;&#x3002;&#x3057;&#x304B;&#x3057;&#x3001;&#x3059;&#x3079;&#x3066;&#x306E;&#x5024;&#x306F;&#x8AAD;&#x307F;&#x8FBC;&#x307E;&#x308C;&#x3001;&#x30AD;&#x30E3;&#x30C3;&#x30B7;&#x30E5;&#x3055;&#x308C;&#x308B;&#x306E;&#x3067;&#x3001;&#x30D1;&#x30FC;&#x30DF;&#x30C3;&#x30B7;&#x30E7;&#x30F3;&#x30FB;&#x30BB;&#x30C3;&#x30C8;&#x306E;&#x30EB;&#x30FC;&#x30EB;&#x3084;&#x5C5E;&#x6027;&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x306E;&#x3088;&#x3046;&#x306A;&#x3053;&#x3068;&#x306B;&#x5229;&#x7528;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<h4 id="&#x305D;&#x306E;&#x4ED6;&#x306E;&#x30BF;&#x30D6;">&#x305D;&#x306E;&#x4ED6;&#x306E;&#x30BF;&#x30D6;</h4>
+<p>Certificates - 2&#x3064;&#x76EE;&#x306E;&#x8A3C;&#x660E;&#x66F8;&#x3092;&#x8FFD;&#x52A0;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;AD&#x306E;&#x30B5;&#x30FC;&#x30D0;&#x30FC;&#x8A3C;&#x660E;&#x66F8;&#x3092;&#x5909;&#x66F4;&#x3059;&#x308B;&#x5FC5;&#x8981;&#x304C;&#x3042;&#x308A;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x3078;&#x306E;&#x30C0;&#x30A6;&#x30F3;&#x30BF;&#x30A4;&#x30E0;&#x3092;&#x6700;&#x5C0F;&#x9650;&#x306B;&#x6291;&#x3048;&#x305F;&#x3044;&#x5834;&#x5408;&#x306B;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>Advanced - &#x3044;&#x304F;&#x3064;&#x304B;&#x306E;&#x5909;&#x66F4;&#x3092;&#x53EF;&#x80FD;&#x306B;&#x3057;&#x307E;&#x3059;&#x304C;&#x3001;&#x5FC5;&#x8981;&#x3068;&#x306A;&#x308B;&#x5834;&#x5408;&#x306F;&#x3042;&#x307E;&#x308A;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#xFF1A;</p>
+<ul>
+<li>&#x53E4;&#x3044; SAML 1 &#x30D7;&#x30ED;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3057;&#x304B;&#x6271;&#x3048;&#x306A;&#x3044;&#x30BD;&#x30FC;&#x30B9;&#x304C;&#x3042;&#x308B;&#x5834;&#x5408;&#x3001;SAML &#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x9593;&#x306E;&#x5207;&#x308A;&#x66FF;&#x3048;&#x304C;&#x53EF;&#x80FD;&#x3067;&#x3059;&#x3002;</li>
+<li>&#x30BD;&#x30FC;&#x30B9;&#x304B;&#x3089;&#x8981;&#x6C42;&#x304C;&#x3042;&#x308C;&#x3070;&#x3001;&#x30D7;&#x30ED;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092; Redirect &#x304B;&#x3089; Post &#x306B;&#x5909;&#x66F4;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</li>
+<li>&#x8A8D;&#x8A3C;&#x8981;&#x6C42;&#x306E;&#x7F72;&#x540D;(SHA-1&#x307E;&#x305F;&#x306F;SHA-256)&#x304C;&#x5FC5;&#x8981;&#x306A;&#x5834;&#x5408;&#x3001;&#x305D;&#x308C;&#x3092;&#x6709;&#x52B9;&#x306B;&#x3057;&#x307E;&#x3059;&#x3002;</li>
+<li>SAML forceAuthn &#x30AA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x3092;&#x6709;&#x52B9;&#x306B;&#x3059;&#x308B; (&#x30E6;&#x30FC;&#x30B6;&#x304C;&#x30ED;&#x30FC;&#x30AB;&#x30EB;&#x30FB;&#x30BD;&#x30FC;&#x30B9;&#x306B;&#x9001;&#x4FE1;&#x3055;&#x308C;&#x308B;&#x305F;&#x3073;&#x306B;&#x518D;&#x8A8D;&#x8A3C;&#x3092;&#x5F37;&#x5236;&#x3057;&#x307E;&#x3059;&#x3002;&#x305F;&#x3068;&#x3048;&#x3070;&#x3001;&#x30E6;&#x30FC;&#x30B6;&#x304C;&#x30B3;&#x30F3;&#x30BD;&#x30FC;&#x30B7;&#x30A2;&#x30E0;&#x5185;&#x3067;&#x8907;&#x6570;&#x306E;&#x6240;&#x5C5E;&#x3092;&#x6301;&#x3061;&#x3001;SAML &#x30BD;&#x30FC;&#x30B9;&#x306E;&#x30BB;&#x30C3;&#x30B7;&#x30E7;&#x30F3;&#x7BA1;&#x7406;&#x306B;&#x3088;&#x3063;&#x3066;&#x5909;&#x66F4;&#x304C;&#x56F0;&#x96E3;&#x306A;&#x5834;&#x5408;&#x306A;&#x3069;)&#x3002;<h4 id="&#x4F55;&#x304B;&#x6C17;&#x3092;&#x3064;&#x3051;&#x308B;&#x3053;&#x3068;&#x306F;&#x3042;&#x308A;&#x307E;&#x3059;&#x304B;&#xFF1F;">&#x4F55;&#x304B;&#x6C17;&#x3092;&#x3064;&#x3051;&#x308B;&#x3053;&#x3068;&#x306F;&#x3042;&#x308A;&#x307E;&#x3059;&#x304B;&#xFF1F;</h4>
+refresh metadata&#x30DC;&#x30BF;&#x30F3;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3068;&#x3001;&#x63A5;&#x7D9A;&#x306E;&#x30A8;&#x30F3;&#x30C9;&#x30DD;&#x30A4;&#x30F3;&#x30C8;&#x3084;&#x8A3C;&#x660E;&#x66F8;&#x304C;&#x30E1;&#x30BF;&#x30C7;&#x30FC;&#x30BF;&#x306E;&#x5024;&#x3067;&#x66F4;&#x65B0;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;&#x540D;&#x524D;&#x3068;&#x4ED6;&#x306E;&#x30BF;&#x30D6;&#x306E;&#x30AA;&#x30D7;&#x30B7;&#x30E7;&#x30F3;&#x306F;&#x5909;&#x66F4;&#x3055;&#x308C;&#x307E;&#x305B;&#x3093;&#x3002;</li>
+</ul>
+<p>&#x4F55;&#x3089;&#x304B;&#x306E;&#x7406;&#x7531;&#x3067;ADFS&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x304C;1.2&#x3088;&#x308A;&#x524D;&#x306E;TLS&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x30ED;&#x30C3;&#x30AF;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x5834;&#x5408;&#x3001;&#x63A5;&#x7D9A;&#x3092;&#x62D2;&#x5426;&#x3059;&#x308B;&#x3053;&#x3068;&#x306B;&#x306A;&#x308A;&#x3001;&#x52D5;&#x4F5C;&#x3057;&#x306A;&#x3044;&#x3053;&#x3068;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<h4 id="&#x4EEE;&#x540D;&#xFF08;pseudonymous&#xFF09;&#x3068;&#x306F;">&#x4EEE;&#x540D;&#xFF08;Pseudonymous&#xFF09;&#x3068;&#x306F;?</h4>
+<p>&#x4E00;&#x610F;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x5C5E;&#x6027;&#xFF08;unique user attribute&#xFF09;&#x306F;&#x3001;&#x4ED6;&#x306E;&#x30DE;&#x30C3;&#x30D4;&#x30F3;&#x30B0;&#x3055;&#x308C;&#x305F;&#x5C5E;&#x6027;&#x304C;&#x30AF;&#x30EA;&#x30A2;&#x3055;&#x308C;&#x305F;&#x5F8C;&#x3082;&#x3001;&#x305D;&#x306E;&#x8B58;&#x5225;&#x5B50;&#x304C;audit trail&#x306B;&#x3057;&#x3070;&#x3089;&#x304F;&#x6B8B;&#x308A;&#x307E;&#x3059;&#x3002;&#x305D;&#x306E;&#x305F;&#x3081;&#x3001;&#x30C7;&#x30FC;&#x30BF;&#x4FDD;&#x8B77;&#x6CD5;&#x306B;&#x95A2;&#x3059;&#x308B;&#x6F5C;&#x5728;&#x7684;&#x306A;&#x554F;&#x984C;&#x3092;&#x907F;&#x3051;&#x308B;&#x305F;&#x3081;&#x306B;&#x3001;&#x4E00;&#x610F;&#x306E;&#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x5C5E;&#x6027;&#x306B;&#x306F;&#x4EEE;&#x540D;&#x306E;&#x8B58;&#x5225;&#x5B50;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3053;&#x3068;&#x304C;&#x63A8;&#x5968;&#x3055;&#x308C;&#x307E;&#x3059;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../../" class="navigation navigation-prev " aria-label="Previous page: 既存のユーザーディレクトリとの接続">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="SAML-connector.html" class="navigation navigation-next " aria-label="Next page: SAMLコネクター">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"ADFSコネクター","level":"1.2.1.1","depth":3,"next":{"title":"SAMLコネクター","level":"1.2.1.2","depth":3,"path":"Documentation/Libraries/PerPageHelp/ManagementMenu/Connections/SAML-connector.md","ref":"./Documentation/Libraries/PerPageHelp/ManagementMenu/Connections/SAML-connector.md","articles":[]},"previous":{"title":"既存のユーザーディレクトリとの接続","level":"1.2.1","depth":2,"path":"Documentation/Libraries/PerPageHelp/index.md","ref":"./Documentation/Libraries/PerPageHelp/index.md","articles":[{"title":"ADFSコネクター","level":"1.2.1.1","depth":3,"path":"Documentation/Libraries/PerPageHelp/ManagementMenu/Connections/ADFS-connector.md","ref":"./Documentation/Libraries/PerPageHelp/ManagementMenu/Connections/ADFS-connector.md","articles":[]},{"title":"SAMLコネクター","level":"1.2.1.2","depth":3,"path":"Documentation/Libraries/PerPageHelp/ManagementMenu/Connections/SAML-connector.md","ref":"./Documentation/Libraries/PerPageHelp/ManagementMenu/Connections/SAML-connector.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Documentation/Libraries/PerPageHelp/ManagementMenu/Connections/ADFS-connector.md","mtime":"2022-05-30T01:38:06.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-05-30T01:39:25.210Z"},"basePath":"../../../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../../../gitbook/gitbook.js"></script>
+    <script src="../../../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
