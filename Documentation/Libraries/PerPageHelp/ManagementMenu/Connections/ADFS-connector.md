@@ -1,7 +1,6 @@
 | ソース | 翻訳元 URL | 翻訳日 |
 | ---- | ---- | ---- |
 | OpenAthens Docs | [ADFS connector](https://docs.openathens.net/libraries/ADFS-connector.11436549.html) | 2022-05-25 |
-
 # ADFS コネクター
 
 パス: Management > Connections > Add > ADFS
