@@ -1,6 +1,3 @@
-# 目次
-
-## OpenAthens Documentation
 * [EBSCO Connect](./EBSCOConnect/index.md)
 	* [セキュリティとプライバシー](./EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md)
 		1. [OpenAthensの設定と管理](./EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md#openathens-の設定と管理)
