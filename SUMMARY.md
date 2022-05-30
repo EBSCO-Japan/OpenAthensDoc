@@ -3,6 +3,7 @@
 	* [OpenAthensへのログイン](/Website/advice/how-to-login-to-openathens-for-remote-access.md)
 	* [ユーザージャーニー](/Website/librarians/onboarding-for-librarians/library-onboarding-user-journey.md)
 	* [Redirectorリンク](/Website/advice/openathens101-redirector-links.md)
+-------
 * ■ EBSCO Connect
 	* [セキュリティとプライバシー](/EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md)
 		* [OpenAthensの設定と管理](/EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md#openathens-の設定と管理)
