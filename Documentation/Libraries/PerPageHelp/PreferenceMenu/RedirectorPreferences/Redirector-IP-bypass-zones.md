@@ -9,15 +9,7 @@ Redirectorリンクを使用する場合、オプションでRedirector IPバイ
 ユーザーがRedirectorのリンクをたどると、Redirectorは、ユーザーをそのままサービスプロバイダに渡すか、ユーザーがまだサインインしていなければ、ユーザー名とパスワードを要求されるOpenAthens認証ポイントに渡すかを決定します。
 ユーザージャーニーの概要は、次のようなものです。
  
-
-```mermaid
-  flowchart TD;
-      A(ユーザーがRedirectorリンクをたどる)-->B(場所を認識);
-      B-->C(IP認証のためにリソースに直接渡される);
-      A-->D(場所が認識されない)-->E("OpenAthensの認証、統計情報の記録");
-      C-->F(アクセス);
-      E-->F;
-```
+![chart](../../../../../img/redirector-ip-bypass-zone.PNG)
 
 ## IPレンジの設定
 
