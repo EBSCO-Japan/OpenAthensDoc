@@ -18,3 +18,4 @@ jobs:
         time_zone: Asia/Tokyo
         font_install: sudo apt-get install fonts-noto-cjk
         gitbook_pdf: true
+        gitbook_pdf_dir: pdf
