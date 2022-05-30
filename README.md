@@ -1,5 +1,5 @@
 # OpenAthens Documentation
-OpenAthensのドキュメント　https://ebsco-japan.github.io/OpenAthensDoc/
+OpenAthensのドキュメント　https://ebsco-japan.github.io/OpenAthensDocs/
 
 [![Links (Fail Fast)](https://github.com/EBSCO-Japan/OpenAthensDoc/actions/workflows/links-fail-fast.yml/badge.svg)](https://github.com/EBSCO-Japan/OpenAthensDoc/actions/workflows/links-fail-fast.yml)
 [![pages-build-deployment](https://github.com/EBSCO-Japan/OpenAthensDoc/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/EBSCO-Japan/OpenAthensDoc/actions/workflows/pages/pages-build-deployment)
