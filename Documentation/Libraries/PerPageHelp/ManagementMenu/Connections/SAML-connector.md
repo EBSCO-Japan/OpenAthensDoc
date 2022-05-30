@@ -30,7 +30,7 @@ Shibboleth などの代替 IdP から移行する場合は、以下も参照し�
 2.  SAML メタデータの URL を入力するか、SAML ソースを表す xml ファイルをアップロードします。  
 
 
-    1.  メタデータのURLは通常、https://YOURDOMAIN/path/metadata のようなもので、ネットワーク外からアクセスできる必要があります。 
+    1.  メタデータのURLは通常、`https://YOURDOMAIN/path/metadata` のようなもので、ネットワーク外からアクセスできる必要があります。 
 
 
 3.  ユーザー識別子フィールドを、ユーザー識別子として送信する属性と一致するように設定します。これは後で変更することができますが、ページを保存するために値を持つ必要があります。
@@ -53,8 +53,8 @@ Shibboleth などの代替 IdP から移行する場合は、以下も参照し�
 | ---- | ---- |
 |  Display name  |  コネクタの選択がある際に、認証ポイントで表示される接続の名前。デフォルトは、SAML メタデータで指定された名前です。  |
 |  Metadata URL  |  SAML メタデータが公開される場所。URL からメタデータが読み込まれたときにのみ入力され、SAML システムが変更されたときに接続を簡単に更新できるようにします。  |
-|  EntityID  |  	SAML インスタンスのエンティティ識別子。OpenAthens LA の場合は通常、http://YOURDOMAIN/oala/metata 。SAML メタデータから取得。  |
-|  SSO endpoint  |  ログインアドレス。通常、https://YOURDOMAIN/oala/sso 。SAML メタデータから取得。 |
+|  EntityID  |  	SAML インスタンスのエンティティ識別子。OpenAthens LA の場合は通常、`http://YOURDOMAIN/oala/metata` 。SAML メタデータから取得。  |
+|  SSO endpoint  |  ログインアドレス。通常、`https://YOURDOMAIN/oala/sso` 。SAML メタデータから取得。 |
 |  DIsplay name attribute  |  ここで指定した属性は、アカウントリストやauditで表示される値を供給します。人間が読めるようなものを推奨します。これは、Unique user属性と異なるものである必要はありません。  |
 |  Unique user attribute  |  ここで指定する属性は、現在のユーザー・セット内でそのユーザーに固有の永続的な値を提供する必要があり、そのユーザーに固有の仮名値を常に提供する必要があります。これはシステムでユーザーを区別するために使用され、またTargetedIDや統計の生成にも使用されます。ログイン時に入力されたユーザー名である必要はありません。<br>ここで SAML NameID を使用する場合、ユニークかつ永続的という要件から、タイプは以下のように制限されます。<ul><li>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</li><li>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</li></ul> |
 |  Status  | Not live = 接続はデバッグモードでのみ使用可能です。visibilityとdefaultフラグは無視されます。<br>Live and visible (これが唯一のローカル接続である場合) = 接続はデバッグモードでのみ使用可能です。 <br>Live and visible (複数のライブ接続と可視化された接続がある場合) = ユーザーは、この接続を含む選択肢を提供されます。OpenAthensのアカウントを含めるかどうかは、ドメインの設定によります。<br>Live & visible & default = これは、あなたの唯一のログインオプションであり、組織が知られているときはいつでも、ユーザーはあなたのログインに直接送信されます。認証に成功すると、認証ポイントはその場所を記憶します。認証に失敗すると、その設定はクリアされます。デバッグモードでは、他のログインオプションは表示されません。<br>ステータスの変更は、通常、瞬時に反映されます。  |
@@ -66,7 +66,7 @@ Shibboleth などの代替 IdP から移行する場合は、以下も参照し�
 
 「サービス・プロバイダに接続する」ように構成する方法については、SAML ソースのドキュメントを参照する必要があります。Azure や Google など、より一般的な SAML ソースについては、「[サードパーティ製アプリ](https://docs.openathens.net/tpa/Sign-into-OpenAthens-with-local-authentication-systems.12451899.html)」のセクションにヘルプが用意されています。
 
-このために使用するOpenAthensのメタデータは、OpenAthensで設定した接続のRelying partyタブで引用されているアドレスにあり、以下のような内容になっています： https://login.openathens.net/saml/2/metadata-sp/domain.com/la/123456 
+このために使用するOpenAthensのメタデータは、OpenAthensで設定した接続のRelying partyタブで引用されているアドレスにあり、以下のような内容になっています： `https://login.openathens.net/saml/2/metadata-sp/domain.com/la/123456`
 
 
 <details>
@@ -74,8 +74,8 @@ Shibboleth などの代替 IdP から移行する場合は、以下も参照し�
 
 |  設定  |  値  |
 | ---- | ---- |
-| EntityID / Provider ID / ID | The same as the OpenAthens metadata address,<br>e.g: https://login.openathens.net/saml/2/metadata-sp/domain.com/la/123456 |
-| ACS / Association Consumer Service / Binding address / Reply address | Almost the same as the OpenAthens metadata address (change 'metadata-sp' to 'acs'),<br>e.g: https://login.openathens.net/saml/2/acs/domain.com/la/123456 |
+| EntityID / Provider ID / ID | The same as the OpenAthens metadata address,<br>e.g: `https://login.openathens.net/saml/2/metadata-sp/domain.com/la/123456` |
+| ACS / Association Consumer Service / Binding address / Reply address | Almost the same as the OpenAthens metadata address (change 'metadata-sp' to 'acs'),<br>e.g: `https://login.openathens.net/saml/2/acs/domain.com/la/123456` |
 | Binding method | POST |
 | Certificate | see https://docs.openathens.net/libraries/SAML-connector.11567862.html |
 </details>

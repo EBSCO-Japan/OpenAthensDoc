@@ -52,8 +52,8 @@ Shibboleth などの代替 IdP から移行する場合は、[Migrating from you
 | ---- | ---- |
 |  Display name  |  コネクタの選択がある際に、認証ポイントで表示される接続の名前。デフォルトは、ADFS メタデータで指定された名前です。  |
 |  Metadata URL  |  ADFS メタデータが公開される場所。URL からメタデータが読み込まれたときにのみ入力され、ADFS システムが変更されたときに接続を簡単に更新できるようにします。  |
-|  EntityID  |  	ADFS インスタンスのエンティティ識別子。通常、http://YOURDOMAIN/adfs/services/trust 。ADFS メタデータから取得。  |
-|  SSO endpoint  |  ログインアドレス。通常、https://YOURDOMAIN/adfs/ls/ 。ADFS メタデータから取得。 |
+|  EntityID  |  	ADFS インスタンスのエンティティ識別子。通常、`http://YOURDOMAIN/adfs/services/trust` 。ADFS メタデータから取得。  |
+|  SSO endpoint  |  ログインアドレス。通常、`https://YOURDOMAIN/adfs/ls/` 。ADFS メタデータから取得。 |
 |  Display name attribute  |  ここで指定した属性は、アカウントリストやauditで通常OpenAthensのユーザー名が表示される場所に表示される値を供給します。人間が読めるようなものを推奨します。DisplayName が一般的なソースですが、Unique user attribute claim と異なるものである必要はありません。  |
 |  Unique user attribute  |  ここで指定するクレームは、現在のユーザーセット内でそのユーザーに固有の値でなくてはなりません。かつ、そのユーザーに固有の仮名値を常に提供しなくてはなりません。これはシステムでユーザーを区別するために使用され、またTargetedIDや統計の生成にも使用されます。これは、ログイン時に入力されたユーザー名である必要はありません。よく使われるのはObjectGUIDです。 |
 |  Status  | Not live = 接続はデバッグモードでのみ使用可能です。visibilityとdefaultフラグは無視されます。<br>Live and visible (これが唯一のローカル接続である場合) = 接続はデバッグモードでのみ使用可能です。 <br>Live and visible (複数のライブ接続と可視化された接続がある場合) = ユーザーは、この接続を含む選択肢を提供されます。OpenAthensのアカウントを含めるかどうかは、ドメインの設定によります。<br>Live & visible & default = これは、あなたの唯一のログインオプションであり、組織が知られているときはいつでも、ユーザーはあなたのログインに直接送信されます。認証に成功すると、認証ポイントはその場所を記憶します。認証に失敗すると、その設定はクリアされます。デバッグモードでは、他のログインオプションは表示されません。<br>ステータスの変更は、通常、瞬時に反映されます。  |
