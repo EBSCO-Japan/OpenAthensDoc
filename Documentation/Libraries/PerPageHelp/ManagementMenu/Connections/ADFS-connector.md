@@ -3,7 +3,9 @@
 | OpenAthens Docs | [ADFS connector](https://docs.openathens.net/libraries/ADFS-connector.11436549.html) | 2022-05-25 |
 # ADFS コネクター
 
+```
 パス: Management > Connections > Add > ADFS
+```
 
 OpenAthens は、ADFS (Active Directory Federation Services) と接続できるため、ユーザーに個人アカウントを発行する必要がありません (OpenAthens 管理者アカウントは引き続き必要です)。
 
