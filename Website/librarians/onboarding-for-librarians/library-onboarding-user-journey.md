@@ -1,4 +1,7 @@
-この記事は、OpenAthensのウェブサイトの記事「[User Journey](https://www.openathens.net/librarians/onboarding-for-librarians/library-onboarding-user-journey/)」 の翻訳です。（2022-05-25）
+| ソース | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| OpenAthens Website | [User Journey](https://www.openathens.net/librarians/onboarding-for-librarians/library-onboarding-user-journey/) | 2022-05-25 |
+
 # ユーザージャーニー
 OpenAthensのユーザーエクスペリエンスは、ユーザージャーニーと機関固有の設定に依存します。
 

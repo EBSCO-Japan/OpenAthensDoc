@@ -1,4 +1,7 @@
 この記事は、OpenAthensのウェブサイトの記事「[How to login to OpenAthens for remote access to all your library’s resources](https://www.openathens.net/advice/how-to-login-to-openathens-for-remote-access/) の翻訳です。（2022-05-25）
+| ソース | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| OpenAthens Website | [How to login to OpenAthens for remote access to all your library’s resources](https://www.openathens.net/advice/how-to-login-to-openathens-for-remote-access/)  | 2022-05-25 |
 
 <img class="" src="https://www.openathens.net/app/uploads/2020/12/yorkun-cheng-sFs7Njjv4Ko-unsplash-1200x800.jpg" alt="Remote access to learning from home" width = "60%">
 

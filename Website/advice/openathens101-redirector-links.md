@@ -1,4 +1,6 @@
-この記事は、OpenAthensのウェブサイトの記事「[OpenAthens101: A guide for our librarians – Redirector links](https://www.openathens.net/advice/openathens101-redirector-links/)」 の翻訳です。（2022-05-25）
+| ソース | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| OpenAthens Website | [OpenAthens101: A guide for our librarians – Redirector links](https://www.openathens.net/advice/openathens101-redirector-links/) | 2022-05-25 |
 
 # OpenAthens101: 図書館員向けガイド – Redirectorリンク
 29 April 2020 | Andy Anderson, data analyst
