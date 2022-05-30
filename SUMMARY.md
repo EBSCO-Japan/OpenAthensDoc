@@ -10,5 +10,3 @@
 	* [アトリビュート・リリース](./Documentation/Libraries/PerPageHelp/PreferenceMenu/Attribute-release.md)
 	* [Redirector IPバイパスゾーン](./Documentation/Libraries/PerPageHelp/PreferenceMenu/RedirectorPreferences/Redirector-IP-bypass-zones.md)
 		* [アクセスURL](./Documentation/Libraries/PerPageHelp/ResourcesMenu/Catalogue/Access-URLs.md)
-
-
