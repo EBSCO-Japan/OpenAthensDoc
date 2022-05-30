@@ -1,4 +1,4 @@
-# OpenAthensDoc
+# OpenAthens Documentation
 OpenAthensのドキュメント　https://ebsco-japan.github.io/OpenAthensDoc/
 
 [![Links (Fail Fast)](https://github.com/EBSCO-Japan/OpenAthensDoc/actions/workflows/links-fail-fast.yml/badge.svg)](https://github.com/EBSCO-Japan/OpenAthensDoc/actions/workflows/links-fail-fast.yml)
