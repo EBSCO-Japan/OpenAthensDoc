@@ -1,5 +1,6 @@
-https://docs.openathens.net/libraries/SAML-connector.11567862.html
-
+| ソース | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| OpenAthens Docs | [SAML connector](https://docs.openathens.net/libraries/SAML-connector.11567862.html) | 2022-05-25 |
 # SAML コネクター
 
 OpenAthens は、Azure、G Suite、OneLog、OpenAthens LA、Shibboleth などの SAML ソースと接続できるため、ユーザーに個人アカウントを発行する必要がありません (OpenAthens 管理者アカウントは引き続き必要です)。

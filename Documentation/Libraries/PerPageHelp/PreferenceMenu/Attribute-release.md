@@ -1,11 +1,14 @@
-https://docs.openathens.net/libraries/Attribute-release.10486984.html
+| ソース | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| OpenAthens Docs | [Attribute release](https://docs.openathens.net/libraries/Attribute-release.10486984.html) | 2022-05-25 |
 
 # 属性リリース
 
-:bulb: パス: Preferences > Attribute release
+```
+パス: Preferences > Attribute release
+```
 
-:warning: この機能により、ユーザーに関する選択された情報を第三者に公開することができます。お客様は、この種のデータの公開に関連するすべてのローカルのルール、および法令を確実に遵守する責任を負います。
-
+### **この機能により、ユーザーに関する選択された情報を第三者に公開することができます。お客様は、この種のデータの公開に関連するすべてのローカルのルール、および法令を確実に遵守する責任を負います。**
 
 スキーマ・エディターはリリース可能な属性を追加定義できるところで、サービスプロバイダにどの属性をリリースするかを決定するのは、属性リリースセクションです。
 

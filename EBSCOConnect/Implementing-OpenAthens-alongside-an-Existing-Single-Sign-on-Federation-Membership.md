@@ -1,4 +1,8 @@
 [Implementing OpenAthens alongside an Existing Single Sign-on Federation Membership](https://connect.ebsco.com/s/article/Implementing-OpenAthens-alongside-an-Existing-Single-Sign-on-Federation-Membership?language=en_US) からの翻訳です。
+| ソース | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| EBSCO Connect | [Implementing OpenAthens alongside an Existing Single Sign-on Federation Membership](https://connect.ebsco.com/s/article/Implementing-OpenAthens-alongside-an-Existing-Single-Sign-on-Federation-Membership?language=en_US) | 2022-05-23 |
+
 
 # 既存のシングルサインオン・フェデレーションのメンバーシップと並行してOpenAthensを導入する
 Feb 4, 2021•Knowledge

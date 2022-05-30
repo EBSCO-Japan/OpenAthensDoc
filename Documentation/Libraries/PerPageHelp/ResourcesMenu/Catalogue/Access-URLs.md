@@ -1,4 +1,6 @@
-https://docs.openathens.net/libraries/Access-URLs.11305260.html
+| ソース | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| OpenAthens Docs | [Access URLs](https://docs.openathens.net/libraries/Access-URLs.11305260.html) | 2022-05-23 |
 
 # アクセスURL
 

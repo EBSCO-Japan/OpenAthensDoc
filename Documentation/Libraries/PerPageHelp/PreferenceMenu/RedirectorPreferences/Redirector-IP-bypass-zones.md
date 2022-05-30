@@ -1,4 +1,6 @@
-https://docs.openathens.net/libraries/Redirector-IP-bypass-zones.11076430.html
+| ソース | 翻訳元 URL | 翻訳日 |
+| ---- | ---- | ---- |
+| OpenAthens Docs | [Redirector IP bypass zones](https://docs.openathens.net/libraries/Redirector-IP-bypass-zones.11076430.html) | 2022-05-23 |
 
 # Redirector IP バイパスゾーン
 
