@@ -3,6 +3,8 @@
 | OpenAthens Website | [User Journey](https://www.openathens.net/librarians/onboarding-for-librarians/library-onboarding-user-journey/) | 2022-05-25 |
 
 # ユーザージャーニー
+<img class="" src="https://www.openathens.net/app/uploads/2021/05/chris-lawton-4ozvhBh2LoY-unsplash-1200x800.jpg" alt="Remote access to learning from home" width = "60%">
+
 OpenAthensのユーザーエクスペリエンスは、ユーザージャーニーと機関固有の設定に依存します。
 
 [図書館のオンボーディングに戻る](https://www.openathens.net/librarians/onboarding-for-librarians/)
