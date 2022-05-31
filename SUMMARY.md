@@ -1,5 +1,5 @@
 * ■ OpenAthens ウェブサイト
-	* [プライバシー](/Website/privacy.md) 
+	<!-- * [プライバシー](/Website/privacy.md)  -->
 	* [OpenAthensへのログイン](/Website/advice/how-to-login-to-openathens-for-remote-access.md)
 	* [ユーザージャーニー](/Website/librarians/onboarding-for-librarians/library-onboarding-user-journey.md)
 	* [Redirectorリンク](/Website/advice/openathens101-redirector-links.md)
