@@ -1,12 +1,16 @@
-# Privacy
-Taking your personal information seriously – the OpenAthens privacy policy.
+| ソース | 翻訳元 URL | 参照日 |
+| ---- | ---- | ---- |
+| OpenAthens Website | [Privacy](https://www.openathens.net/privacy/) | 2022-05-26 |
 
-OpenAthens is a Jisc enterprise. Jisc is a registered charity (number 1149740) and a company limited by guarantee which is registered in England under Company No. 5747339, VAT No. GB 197 0632 86. Jisc’s registered office is 4 Portwall Lane, Bristol, BS1 6NB. If you are a visitor to this website or an OpenAthens user, or if you represent an organization that uses OpenAthens, we want to explain how we respect your privacy. If you have any questions about this privacy notice or about your personal information, then please call +44 (0) 20 3880 2626 or email contact@openathens.net.
+# プライバシー
+## 個人情報を大切にする - OpenAthensのプライバシーポリシー
 
-We’ll use the information, as described in our standard privacy notice (at https://www.jisc.ac.uk/website/privacy-notice), to provide the OpenAthens service you’ve requested, as well as to identify problems or ways to make the service better. We’ll keep the information until we are told that you are no longer the nominated contact.
+OpenAthens は Jisc の事業です。Jisc は登録慈善団体（番号 1149740）であり、イングランドでCompany No. 5747339、VAT No. GB 197 0632 86 で登録された有限責任保証会社です。Jiscの登録オフィスは、4 Portwall Lane, Bristol, BS1 6NBです。あなたがこのウェブサイトの訪問者、OpenAthens のユーザー、または OpenAthens を使用する組織の代表者である場合、私たちがあなたのプライバシーをどのように尊重しているかについて説明したいと思います。このプライバシーに関する通知やお客様の個人情報に関してご質問がある場合は、+44 (0) 20 3880 2626 にお電話いただくか、contact@openathens.net に電子メールをお送りください。
 
-## How have we got your information?
-* **You may have given us your personal data yourself.** For example, you may have given us your business card at an event, emailed us requesting information, or filled in an online form so that you could download a report, document, or some other information.
+私たちは、標準的なプライバシー通知（https://www.jisc.ac.uk/website/privacy-notice）に記載されているように、要求されたOpenAthensサービスを提供するため、あるいは、サービスをより良くする方法や、問題を特定するために、情報を使用することにしています。私たちは、あなたが指名された連絡先でなくなったと知らされるまで、情報を保持します。
+
+## どのようにしてあなたの情報を入手したのでしょうか？
+* **ご自身で個人情報を提供したかもしれません。** 例えば、イベント会場で名刺を渡されたり、メールで情報を求められたり、オンラインフォームに入力してレポートや文書、その他の情報をダウンロードされたりした場合があります。
 * **We may have found your contact details at some publicly available source** but in this case, we wouldn’t use them without your consent.
 * **The organisation you work for may have given us your personal data** or asked you to give it to us because your role is key to the OpenAthens service or because you need to be an OpenAthens user.
 * **If you visit our websites, we might use cookies and analytical tools to collect anonymous information about your visit.** Cookies are small text files placed on your computer to collect standard internet log and visitor behavior information. Tracking and analyzing visitor activity enables us to improve the website. For further information visit www.aboutcookies.org or www.allaboutcookies.org. You can set your browser not to accept cookies and the above-mentioned websites tell you how to remove cookies from your browser. However, this might disable some of the key website features.
