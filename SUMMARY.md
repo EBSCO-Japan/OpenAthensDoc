@@ -1,14 +1,14 @@
 -------
-* ■ EBSCO post
+* **EBSCO post**
 	* [My Athens Basic/Plus](/EBSCOpost/all-about-portals-offered-openathens.md)
 -------
-* ■ OpenAthens ウェブサイト
+* **OpenAthens ウェブサイト**
 	<!-- * [プライバシー](/Website/privacy.md)  -->
 	* [OpenAthensへのログイン](/Website/advice/how-to-login-to-openathens-for-remote-access.md)
 	* [ユーザージャーニー](/Website/librarians/onboarding-for-librarians/library-onboarding-user-journey.md)
 	* [Redirectorリンク](/Website/advice/openathens101-redirector-links.md)
 -------
-* ■ EBSCO Connect
+* **EBSCO Connect**
 	* [セキュリティとプライバシー](/EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md)
 		* [OpenAthensの設定と管理](/EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md#openathens-の設定と管理)
 		* [セキュリティの技術的な考慮事項](/EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md#openathens-技術的なセキュリティの考慮事項)
