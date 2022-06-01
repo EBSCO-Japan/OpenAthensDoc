@@ -2,8 +2,8 @@
 | ---- | ---- | ---- |
 | EBSCO post | [All About the Portals Offered by OpenAthens](https://www.ebsco.com/blogs/ebscopost/2026800/all-about-portals-offered-openathens)  | 2022-06-01 |
 
-# OpenAthensが提供するポータルのすべて
-OpenAthensが提供するMyAthensは、利用可能なリソースをクリーンかつ簡単に表示し、SAML SSOとIP/Proxyで簡単にアクセスできることで、ユーザーに成功へのシンプルな道筋を提供するものです。
+# OpenAthensが提供するエンドユーザー向けポータルについて
+OpenAthensが提供するMyAthensは、利用可能なリソースをクリーンかつ簡単に表示し、SAML SSOとIP/Proxyで簡単にアクセスできることで、ユーザーに成功へのシンプルな導線を提供するものです。
 ![MyAthensポータルを表示するノートパソコン](https://www.ebsco.com/sites/g/files/nabnos191/files/acquiadam-assets/MyAthens-portal-screenshot-blog-image-780.jpg)
 2022年5月26日
 
@@ -26,7 +26,7 @@ MyAthensには、2つのバージョンがあります。Basic版は、OpenAthen
 
 
 ## 連絡先詳細カード
-OpenAthens管理画面で、組織のプリファレンスに設定した組織の公開連絡先を表示します。
+OpenAthens管理画面で、「組織のプリファレンス」に設定した組織の公開連絡先を表示します。
 
 ## テキストカード
 テキスト、リンク、画像、埋め込み動画を追加できます。図書館の情報や資料へのリンクなどには、このカードを使用します。
