@@ -2,7 +2,7 @@
 * EBSCO post
 	* [My Athens Basic/Plus](/EBSCOpost/all-about-portals-offered-openathens.md)
 -------
-* # OpenAthens ウェブサイト
+* OpenAthens ウェブサイト
 	<!-- * [プライバシー](/Website/privacy.md)  -->
 	* [OpenAthensへのログイン](/Website/advice/how-to-login-to-openathens-for-remote-access.md)
 	* [ユーザージャーニー](/Website/librarians/onboarding-for-librarians/library-onboarding-user-journey.md)
@@ -14,7 +14,7 @@
 		* [セキュリティの技術的な考慮事項](/EBSCOConnect/OpenAthens-Data-Security-and-User-Privacy-FAQs.md#openathens-技術的なセキュリティの考慮事項)
 	* [既存のフェデレーションとの並行稼働](/EBSCOConnect/Implementing-OpenAthens-alongside-an-Existing-Single-Sign-on-Federation-Membership.md)
 -------
-* ■ OpenAthens サポートドキュメント
+* OpenAthens サポートドキュメント
 	* ● Managementメニュー
 		* 既存のユーザーディレクトリとの接続
 			* [ADFSコネクター](/Documentation/Libraries/PerPageHelp/ManagementMenu/Connections/ADFS-connector.md)
