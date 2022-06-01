@@ -10,12 +10,9 @@ OpenAthensが提供するMyAthensは、利用可能なリソースをクリー�
 MyAthens は、すべての OpenAthens 顧客が利用できるユーザーポータルです。ユーザーがアクセスできるリソースをシンプルかつ簡単に表示する方法を必要とする図書館員やナレッジ管理者のためのものです。研究の出発点として、ユーザーフレンドリーな環境を提供します。
   
 
-> ### OpenAthensは、利用可能なリソースを表示し、SAML SSOとIP/Proxyで簡単にアクセスできるクリーンで簡単なポータルによって、ユーザーに成功へのシンプルなパスを提供します。
+> ### OpenAthensは、利用可能なリソースを表示し、SAML SSOとIP/Proxyで簡単にアクセスできるクリーンで簡単なポータルによって、ユーザーに成功へのシンプルな導線を提供します。
 
-
-MyAthens offers two tier options. Basic tier is available at no extra charge to institutions that subscribe to OpenAthens Authentication services. MyAthens Plus is rich in features and comes with an additional charge. Admins can easily add content to sections or panels referred to as cards. There are six different types of cards. All types are available in the plus version and three in the basic version. The illustration below lists the card types and how many can be used with each tier.
-
-MyAthensには、2つのオプションがあります。Basic版は、OpenAthens認証サービスを契約している機関であれば、追加料金なしで利用できます。MyAthens Plus版は、豊富な機能を備えており、追加料金がかかります。管理者は、「カード」と呼ばれるセクションやパネルに、コンテンツを簡単に追加することができます。カードは6種類あります。Plus版では全種類、Basic版では3種類が用意されています。下図は、カードの種類と、Basic/Plusで使用できる枚数の一覧です。
+MyAthensには、2つのバージョンがあります。Basic版は、OpenAthens認証サービスを契約している機関であれば、追加料金なしで利用できます。MyAthens Plus版は、豊富な機能を備えており、追加料金がかかります。管理者は、「カード」と呼ばれるセクションやパネルに、コンテンツを簡単に追加することができます。カードは6種類あります。Plus版では全種類、Basic版では3種類が用意されています。下図は、カードの種類と、Basic/Plusで使用できる枚数の一覧です。
 
 
 | カードタイプ | Basic | Plus |
