@@ -2,78 +2,50 @@
 | ---- | ---- | ---- |
 | EBSCO post | [All About the Portals Offered by OpenAthens](https://www.ebsco.com/blogs/ebscopost/2026800/all-about-portals-offered-openathens)  | 2022-06-01 |
 
-All About the Portals Offered by OpenAthens
-OpenAthens provides MyAthens to give your users a simple path to success with a clean and easy way to view available resources and easily access them with SAML SSO and IP/Proxy.
-laptop showing the MyAthens portal
-26 May 2022
-MyAthens is a user portal that is available to all OpenAthens customers. It’s for librarians and knowledge managers who need a simple and easy way to show their users what resources they can access. It provides a user-friendly starting point for research.
+# OpenAthensが提供するポータルのすべて
+OpenAthensが提供するMyAthensは、利用可能なリソースをクリーンかつ簡単に表示し、SAML SSOとIP/Proxyで簡単にアクセスできることで、ユーザーに成功へのシンプルな道筋を提供するものです。
+![MyAthensポータルを表示するノートパソコン](https://www.ebsco.com/sites/g/files/nabnos191/files/acquiadam-assets/MyAthens-portal-screenshot-blog-image-780.jpg)
+2022年5月26日
 
+MyAthens は、すべての OpenAthens 顧客が利用できるユーザーポータルです。ユーザーがアクセスできるリソースをシンプルかつ簡単に表示する方法を必要とする図書館員やナレッジ管理者のためのものです。研究の出発点として、ユーザーフレンドリーな環境を提供します。
   
-OpenAthens gives your users a simple path to success with a clean and easy portal to view available resources and easily access them with SAML SSO and IP/Proxy.
+
+> ### OpenAthensは、利用可能なリソースを表示し、SAML SSOとIP/Proxyで簡単にアクセスできるクリーンで簡単なポータルによって、ユーザーに成功へのシンプルなパスを提供します。
+
 
 MyAthens offers two tier options. Basic tier is available at no extra charge to institutions that subscribe to OpenAthens Authentication services. MyAthens Plus is rich in features and comes with an additional charge. Admins can easily add content to sections or panels referred to as cards. There are six different types of cards. All types are available in the plus version and three in the basic version. The illustration below lists the card types and how many can be used with each tier.
 
-Card type
+MyAthensには、2つのオプションがあります。Basic版は、OpenAthens認証サービスを契約している機関であれば、追加料金なしで利用できます。MyAthens Plus版は、豊富な機能を備えており、追加料金がかかります。管理者は、「カード」と呼ばれるセクションやパネルに、コンテンツを簡単に追加することができます。カードは6種類あります。Plus版では全種類、Basic版では3種類が用意されています。下図は、カードの種類と、Basic/Plusで使用できる枚数の一覧です。
 
-Basic
 
-Plus
+| カードタイプ | Basic | Plus |
+| ---- | ---- | ---- |
+| 連絡先詳細 | 1 | 1 |
+| テキスト | 1 | 無制限 |
+| ボタン | 1 | 無制限 |
+| リソースのリスト | n/a | 1 |
+| リソースのキュレーション・リスト | n/a | 無制限 |
+| コンテンツ・ディスカバリー | n/a | 無制限 |
 
-Contact details
 
-1
+## 連絡先詳細カード
+OpenAthensの組織のプリファレンスに設定した組織の公開連絡先を表示します。
 
-1
+## テキストカード
+テキスト、リンク、画像、埋め込み動画を追加できます。図書館の情報や資料へのリンクなどには、このカードを使用します。
 
-Text
+## ボタンカード
+Basicでは1つ、Plusでは無制限にボタンを追加することができます。他の図書館アプリケーションへのリンクなどにお使いください。
 
-1
+上記のカードは、MyAthens Basicで、それぞれ1つだけ追加できます。MyAthens Plusでは、複数のテキストカードとボタンカードを追加できるほか、以下の機能が追加されます。
 
-Unlimited
+## リソース・リストとリソースのキュレーション・リスト
+カタログに掲載されているすべてのリソースのアルファベット順のリストを含めることができます。このリストにより、エンドユーザーはリソースを「お気に入り」としてフラグを立てることができ、便利です。カタログ内のどのリソースも、キュレーション・リストに追加することができます。これは、十分に活用されていないリソースや新しいリソースを強調するのに良い方法かもしれません。リソース・リストとキュレーションリストでは、割り当てられたパーミッション・セットがアクセスを許可している場合にのみ、リソースがユーザーに表示されます。
 
-Button
+## コンテンツ発見ウィジェット
+Plus版では、コンテンツのディスカバリー・サービスにリンクするための検索ボックスを1つまたは複数追加することができます。EBSCO Discovery Service、EBSCO Publication Finder、CORE Discovery for Open Accessなどのサービスが含まれます。
 
-1
+## MyAthensは簡単に設定できる
+管理者はOpenAthensのメインの管理画面からMyAthensを更新でき、リソース管理とポータルを1つのツールで更新することが可能です。分かりやすいアイコンを使って、カードの追加、更新、移動、削除を簡単におこなうことができます。「Publish」ボタンは、エンドユーザーが変更内容を利用できるようにするために提供されます。青いアスタリスクは、未公開の変更を識別します。MyAthensの更新がいかに簡単であるか、[短いビデオ](https://vimeo.com/686393078)でご覧ください。
 
-Unlimited
-
-List of resources
-
-n/a
-
-1
-
-Curated list of resources
-
-n/a
-
-Unlimited
-
-Content discovery
-
-n/a
-
-Unlimited
-
- 
-Contact details card
-Display your organization’s public contact details that are set in the organization preferences area of OpenAthens.
-
-Text card
-Add text, links, images, and embedded videos. Use this card for things like library information or links to resources.
-
-Button card
-Admins can add one button in Basic and unlimited buttons with Plus. Use buttons for links to other library applications and more.
-
-Each of the above cards can be added once in MyAthens Basic tier. MyAthens Plus allows multiple text and button cards, and also includes the following features.
-
-List and Curated List of Resources
-Include an alphabetical list of all the resources in your catalog. The list allows end-users to conveniently flag resources as favorites. Any resource in the catalog may be added to a curated list. This might be a good way to highlight underutilized or new resources. For the full list and curated list, resources will only be displayed to users if their assigned permission set allows access.
-
-Content Discovery Widget
-With the Plus tier, adding one or more search boxes for linking to content discovery services is available. Some of the services included are EBSCO Discovery Service, EBSCO Publication Finder and CORE Discovery for Open Access.
-
-MyAthens is Easy to Configure
-Admins can update MyAthens via the main OpenAthens admin area, allowing updates to resource management and portal within one tool. Universal icons allow for straightforward updates to add, update, move and delete cards. A publish button is offered to make changes available to users. A blue asterisk identifies any unpublished changes. Watch a quick video to see how easy it is to update MyAthens.
-
-MyAthens portals display on any size screen. OpenAthens gives your users a simple path to success with a clean and easy portal to view available resources and easily access them with SAML SSO and IP/Proxy.
+MyAthensポータルはどのようなサイズの画面にも表示されます。OpenAthensは、利用可能なリソースを表示し、[SAML SSOとIP/Proxy](https://www.ebsco.com/sites/g/files/nabnos191/files/acquiadam-assets/OpenAthens-Authentication-Methods-Compared-Overview.pdf)で簡単にアクセスできるクリーンで簡単なポータルによって、ユーザーに成功へのシンプルなパスを提供します。
