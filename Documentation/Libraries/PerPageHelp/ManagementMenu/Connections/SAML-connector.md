@@ -74,8 +74,8 @@ Shibboleth などの代替 IdP から移行する場合は、以下も参照し�
 
 |  設定  |  値  |
 | ---- | ---- |
-| EntityID / Provider ID / ID | The same as the OpenAthens metadata address,<br>e.g: https:\//login.openathens.net/saml/2/metadata-sp/domain.com/la/123456 |
-| ACS / Association Consumer Service / Binding address / Reply address | Almost the same as the OpenAthens metadata address (change 'metadata-sp' to 'acs'),<br>e.g: https:\//login.openathens.net/saml/2/acs/domain.com/la/123456 |
+| EntityID / Provider ID / ID | OpenAthensのメタデータアドレスと同様<br>e.g: https:\//login.openathens.net/saml/2/metadata-sp/domain.com/la/123456 |
+| ACS / Association Consumer Service / Binding address / Reply address | OpenAthensのメタデータアドレスとほぼ同様 m（'metadata-sp' を 'acs'に変更）<br>e.g: https:\//login.openathens.net/saml/2/acs/domain.com/la/123456 |
 | Binding method | POST |
 | Certificate | see https://docs.openathens.net/libraries/SAML-connector.11567862.html |
 </details>
